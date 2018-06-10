@@ -1,5 +1,5 @@
 # Conjunto de Ferramentas para Controle de Qualidade
-Conjunto de ferramentas desenvolvidas no software FME Workbench 2018 para executar o controle de qualidade de dados geoespaciais
+Conjunto de ferramentas desenvolvidas no software [FME Workbench 2018](https://www.safe.com/) para executar o controle de qualidade de dados geoespaciais
 
 ---
 
@@ -46,6 +46,12 @@ Para realizar o controle de qualidade também é utilizada a classe *Curva_Nivel
 ### Medida presença de feições duplicadas
 * (8.1.1) Não devem existir feições duplicadas
 
-### 
-
 ---
+
+## Verificação da qualidade de vetores de altimetria
+
+Esta ferramenta visa executar um controle de qualidade automatizado das seguintes classes previstas na ET-EDGV:
+* *Curva_Nivel*
+* *Ponto_Cotado*
+
+Para realizar o controle de qualidade também são utilizadas as classes *Massa_Dagua* e *Trecho_Massa_Dagua*.
