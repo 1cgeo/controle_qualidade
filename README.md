@@ -91,3 +91,18 @@ A ferramenta está disponível em [Verificação da Qualidade da Altimetria](htt
 
 ### Medida existência de itens ausentes (omissão)
 * (8.4.1) Todos os cocurutos (feições da classe *Curva_Nivel* fechadas que não contenham outras) devem possuir pelo menos uma feição da classe *Ponto_Cotado*
+
+## Verificação dos vizinhos do MDE
+Esta ferramenta visa verificar a diferença dos valores dos pixels na área de sobreposição entre MDEs (MDT ou MDT).
+
+A ferramenta está disponível em [Verificação dos vizinhos do MDE](https://github.com/1cgeo/controle_qualidade/blob/master/verificacao_vizinhos_mde.fmw).
+
+## Verificação da aderência do MDT com hidrografia
+Esta ferramenta visa verificar a diferença média de coordenadas do trecho de drenagem e MDT.
+
+A ferramenta está disponível em [Verificação da aderência com hidrografia](https://github.com/1cgeo/controle_qualidade/blob/master/verificacao_aderencia_hidrografia_mdt.fmw).
+
+## Geração de raster de diferença entre MDS e MDT
+Esta ferramenta visa gerar o raster de diferença entre MDS e MDT.
+
+A ferramenta está disponível em [Geração de raster de diferença entre MDS e MDT](https://github.com/1cgeo/controle_qualidade/blob/master/gera_diferenca_MDS_MDT.fmw).
