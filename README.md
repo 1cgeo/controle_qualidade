@@ -49,6 +49,7 @@ A ferramenta está disponível em [Verificação da Qualidade da Hidrografia](ht
 ### Medida existência de sobreposição inválida
 * (6.2.1) Feições das classe *Massa_Dagua* e *Trecho_Massa_Dagua* não devem possuir sobreposição
 * (6.2.2) Feições da classe *Ilha* não devem sobrepor feições das classes *Massa_Dagua* e *Trecho_Massa_Dagua
+* (6.2.3) Feições das classes *Trecho de Drenagem* e *Barragem* não devem se sobrepor.
 
 ### Medida existência de erro de conectividade altimétrica
 * (6.3.1) Feições da classe *Trecho_Drenagem* devem possuir conectividade altimétrica (*snap* 3D)
