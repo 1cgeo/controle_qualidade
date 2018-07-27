@@ -19,8 +19,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18310"
-#!   FME_DOCUMENT_GUID="4ced3b8a-559b-4afe-a994-91997577e949"
-#!   FME_DOCUMENT_PRIORGUID="dca9d456-1b29-4104-80be-a852159719e3,aa18bb8a-b873-4c83-9940-b49a6e87e47b,38793b83-01b6-42da-aa2d-a2b4a47afae0,13f7dba6-aabc-4b24-bb20-f8a7912ef43c,dd3a7020-949c-4778-81ad-4b83df84c43f,41cad9e8-ee52-481b-b3ce-dd27f33fe425,28ffbeec-fc7a-4970-b9c1-f05f1c3b1de6,46257e86-2f42-497e-a223-34a85a7b6a0e,2a449945-6598-48c6-bb27-5f0735bc3cf4,b54bc2cb-18f4-4514-a98e-143ddf635daa,a6c37080-f2e2-4e1b-b6ff-a53ff268a597,0567a055-b0d7-4c5d-8674-734bf91e0c4c,239c22b0-d520-4c03-850c-43f7114c7563,e267f188-4c95-4171-aa25-1c4c388988f2"
+#!   FME_DOCUMENT_GUID="67113ac1-3c48-43d6-ac29-bdbf54f8cdd8"
+#!   FME_DOCUMENT_PRIORGUID="dca9d456-1b29-4104-80be-a852159719e3,aa18bb8a-b873-4c83-9940-b49a6e87e47b,38793b83-01b6-42da-aa2d-a2b4a47afae0,13f7dba6-aabc-4b24-bb20-f8a7912ef43c,dd3a7020-949c-4778-81ad-4b83df84c43f,41cad9e8-ee52-481b-b3ce-dd27f33fe425,28ffbeec-fc7a-4970-b9c1-f05f1c3b1de6,46257e86-2f42-497e-a223-34a85a7b6a0e,2a449945-6598-48c6-bb27-5f0735bc3cf4,b54bc2cb-18f4-4514-a98e-143ddf635daa,a6c37080-f2e2-4e1b-b6ff-a53ff268a597,0567a055-b0d7-4c5d-8674-734bf91e0c4c,239c22b0-d520-4c03-850c-43f7114c7563,e267f188-4c95-4171-aa25-1c4c388988f2,4ced3b8a-559b-4afe-a994-91997577e949"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -29,7 +29,7 @@
 #!   HISTORY="20180906,Cap&lt;space&gt;Diniz,Vers&lt;u00e3&gt;o&lt;space&gt;inicial"
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.0.1.0 (20180518 - Build 18310 - WIN64)"
-#!   LAST_SAVE_DATE="2018-06-12T15:47:34"
+#!   LAST_SAVE_DATE="2018-07-20T10:46:40"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION="Esta ferramenta visa executar um controle de qualidade automatizado das seguintes classes previstas na ET-EDGV:&#10;&#10;- _Curva_Nivel_&#10;&#10;- _Ponto_Cotado_&#10;&#10;Para realizar o controle de qualidade também são utilizadas as classes _Massa_Dagua_ e _Trecho_Massa_Dagua_."
@@ -47,10 +47,10 @@
 #!   TITLE="Verificação da qualidade de vetores de hidrografia"
 #!   USAGE=""
 #!   USE_MARKDOWN="YES"
-#!   VIEW_POSITION="-7265.7 7285.23"
+#!   VIEW_POSITION="653.416 7142.12"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="16"
+#!   ZOOM_SCALE="55"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -66,7 +66,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle double fme_fill_color char(50) shape_geometry_error{} char(254) fme_basename char(50) fme_feature_type char(50) shape_measures char(254) fme_geometry char(50) fme_dataset char(50) fme_rotation double fme_secondary_axis double fme_type char(50) fme_text_size double fme_text_string char(50) fme_primary_axis double multi_reader_type char(50) multi_reader_full_id long fme_start_angle double fme_color char(50) multi_reader_id long multi_reader_keyword char(50) SHAPE_GEOMETRY char(50)"
+#!   EXPOSABLE_ATTRS="fme_text_size double fme_rotation double multi_reader_type char(50) fme_feature_type char(50) fme_text_string char(50) shape_geometry_error{} char(254) SHAPE_GEOMETRY char(50) fme_sweep_angle double fme_secondary_axis double multi_reader_full_id long fme_start_angle double fme_dataset char(50) fme_fill_color char(50) fme_geometry char(50) fme_color char(50) fme_primary_axis double fme_basename char(50) multi_reader_id long multi_reader_keyword char(50) fme_type char(50) shape_measures char(254)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -124,7 +124,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle double fme_fill_color char(50) shape_geometry_error{} char(254) fme_basename char(50) fme_feature_type char(50) shape_measures char(254) fme_geometry char(50) fme_dataset char(50) fme_rotation double fme_secondary_axis double fme_type char(50) fme_text_size double fme_text_string char(50) fme_primary_axis double multi_reader_type char(50) multi_reader_full_id long fme_start_angle double fme_color char(50) multi_reader_id long multi_reader_keyword char(50) SHAPE_GEOMETRY char(50)"
+#!   EXPOSABLE_ATTRS="fme_text_size double fme_rotation double multi_reader_type char(50) fme_feature_type char(50) fme_text_string char(50) shape_geometry_error{} char(254) SHAPE_GEOMETRY char(50) fme_sweep_angle double fme_secondary_axis double multi_reader_full_id long fme_start_angle double fme_dataset char(50) fme_fill_color char(50) fme_geometry char(50) fme_color char(50) fme_primary_axis double fme_basename char(50) multi_reader_id long multi_reader_keyword char(50) fme_type char(50) shape_measures char(254)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -182,7 +182,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY} shape_dimension auto"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type char(50) SHAPE_GEOMETRY char(50) fme_primary_axis double fme_basename char(50) fme_color char(50) fme_dataset char(50) shape_measures char(254) fme_text_size double fme_sweep_angle double fme_rotation double fme_text_string char(50) fme_feature_type char(50) fme_geometry char(50) fme_start_angle double fme_secondary_axis double fme_fill_color char(50)"
+#!   EXPOSABLE_ATTRS="shape_measures char(254) fme_type char(50) fme_primary_axis double fme_feature_type char(50) fme_color char(50) fme_text_size double fme_geometry char(50) fme_start_angle double fme_dataset char(50) fme_rotation double SHAPE_GEOMETRY char(50) fme_text_string char(50) fme_fill_color char(50) fme_sweep_angle double fme_secondary_axis double fme_basename char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group shape_dimension Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE shape_dimension Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,auto%2D,2d%2D&lt;space&gt;+&lt;space&gt;Measures,2dm%3D&lt;space&gt;+&lt;space&gt;Measures,3dm Output Dimension:&quot; auto "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
@@ -1004,7 +1004,7 @@
 #!   BOUNDING_RECT="1406.1805056553246 956.20181236191684 7228.4680003108879 1291.7457469274154"
 #!   STICKY="true"
 #!   COLOUR="0.5725490196078431,0.27450980392156865,0.70196078431372544"
-#!   CONTENTS="63 255 235 241 245 234 253 247 246 233 232 242 252 231 271 248 244 239 382 81 82 236 254 384 237 238 385 243 78 79 64 84 "
+#!   CONTENTS="242 271 234 232 266 64 241 255 267 63 384 248 243 254 245 238 82 247 382 233 236 252 246 239 385 79 231 78 253 244 235 237 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1017,7 +1017,7 @@
 #!   BOUNDING_RECT="1406.1805056553246 -427.08760420937574 5871.4187994152644 926.63640323187974"
 #!   STICKY="true"
 #!   COLOUR="0.59607843137254901,0.792156862745098,0.77647058823529413"
-#!   CONTENTS="249 250 240 279 228 437 277 428 280 439 229 433 227 276 282 "
+#!   CONTENTS="228 279 229 439 428 240 277 250 282 227 437 433 276 280 249 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1030,7 +1030,7 @@
 #!   BOUNDING_RECT="-479.13522613486998 1461.405269076681 1146.6419012016206 575.97974815480518"
 #!   STICKY="true"
 #!   COLOUR="0.34509803921568627,0.45098039215686275,0.25490196078431371"
-#!   CONTENTS="16 19 "
+#!   CONTENTS="19 16 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1043,7 +1043,7 @@
 #!   BOUNDING_RECT="-479.13522613486998 588.10590461305719 1134.1417762003707 740.63719183069122"
 #!   STICKY="true"
 #!   COLOUR="0.96078431372549022,0.48627450980392156,0.41568627450980394"
-#!   CONTENTS="22 325 "
+#!   CONTENTS="325 22 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1056,38 +1056,38 @@
 #!   BOUNDING_RECT="9837.1619775499476 1481.3514945288139 2643.3191161179911 1466.4780794149401"
 #!   STICKY="true"
 #!   COLOUR="0.30196078431372547,0.62352941176470589,0.25098039215686274"
-#!   CONTENTS="365 381 383 451 366 306 57 452 387 360 303 370 367 24 362 427 368 "
+#!   CONTENTS="370 365 427 367 368 383 381 24 452 306 362 387 360 451 366 57 303 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="9"
 #!   NAME="lote_1_alt_medida_8_1_1"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="1406.1805056553246 -1440.0334660533535"
+#!   TOP_LEFT="1357.9681251357965 -1434.3515910527851"
 #!   ORDER="500000000000001"
-#!   BOTTOM_RIGHT="4987.024394902297 -1986.2748519019933"
-#!   BOUNDING_RECT="1406.1805056553246 -1440.0334660533535 3580.8438892469726 546.24138584863977"
+#!   BOTTOM_RIGHT="5879.0787699915036 -1980.5929769014249"
+#!   BOUNDING_RECT="1357.9681251357965 -1434.3515910527851 4521.1106448557075 546.24138584863977"
 #!   STICKY="true"
 #!   COLOUR="0.050980392156862744,0.5725490196078431,0.50196078431372548"
-#!   CONTENTS="13 55 60 56 12 59 11 10 14 "
+#!   CONTENTS="11 59 10 264 55 60 13 14 56 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="138"
-#!   NAME="lote_1_alt_medida_4_3_2"
+#!   NAME="lote_1_alt_medida_4_3_1"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="1416.5972764896999 5930.1152283875354"
+#!   TOP_LEFT="1416.5972764896999 5935.797103388104"
 #!   ORDER="500000000000007"
-#!   BOTTOM_RIGHT="6427.1476048093809 5260.4692713593804"
-#!   BOUNDING_RECT="1416.5972764896999 5930.1152283875354 5010.5503283196813 669.64595702815495"
+#!   BOTTOM_RIGHT="6427.1476048093809 5266.1511463599491"
+#!   BOUNDING_RECT="1416.5972764896999 5935.797103388104 5010.5503283196813 669.64595702815495"
 #!   STICKY="true"
 #!   COLOUR="0.85882352941176465,0.062745098039215685,0.054901960784313725"
-#!   CONTENTS="124 134 128 132 127 122 135 131 120 126 130 121 136 129 123 "
+#!   CONTENTS="136 132 122 131 129 126 128 121 130 120 134 124 127 135 123 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="158"
-#!   NAME="lote_1_alt_medida_4_3_1"
+#!   NAME="lote_1_alt_medida_4_3_2"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="1416.5972764896999 6843.8184381843821"
 #!   ORDER="500000000000095"
@@ -1095,7 +1095,7 @@
 #!   BOUNDING_RECT="1416.5972764896999 6843.8184381843821 5005.0808273234252 882.98723693315605"
 #!   STICKY="true"
 #!   COLOUR="0.59607843137254901,0.55686274509803924,0.73333333333333328"
-#!   CONTENTS="139 150 149 156 154 145 143 146 142 155 147 148 152 140 141 "
+#!   CONTENTS="143 152 150 156 145 141 146 147 148 142 149 154 155 140 139 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1108,7 +1108,7 @@
 #!   BOUNDING_RECT="1416.5972764896999 5244.2733394058077 2388.5444620291269 1347.1195451391141"
 #!   STICKY="true"
 #!   COLOUR="0.94901960784313721,0.25490196078431371,0.1803921568627451"
-#!   CONTENTS="161 164 163 168 162 166 159 160 167 165 "
+#!   CONTENTS="164 165 159 168 166 160 163 167 161 162 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1121,7 +1121,7 @@
 #!   BOUNDING_RECT="1409.9094556659152 2594.4437295131188 5783.5085393107447 856.73695850601496"
 #!   STICKY="true"
 #!   COLOUR="0.32941176470588235,0.52156862745098043,0.75686274509803919"
-#!   CONTENTS="191 187 195 172 200 176 173 189 192 202 171 170 175 177 194 188 190 174 178 "
+#!   CONTENTS="170 175 191 178 171 200 190 177 173 202 195 189 188 176 194 174 187 172 192 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1134,7 +1134,7 @@
 #!   BOUNDING_RECT="1406.1805056553246 -2072.5051452947991 3864.1424678446801 851.28442990968506"
 #!   STICKY="true"
 #!   COLOUR="0.18431372549019609,0.66274509803921566,0.92549019607843142"
-#!   CONTENTS="201 183 185 197 182 198 186 196 180 199 184 181 "
+#!   CONTENTS="183 196 182 201 184 186 199 185 181 197 198 180 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1147,20 +1147,20 @@
 #!   BOUNDING_RECT="1409.9094556659152 3851.4376203448369 5707.636410861136 1197.9286459531249"
 #!   STICKY="true"
 #!   COLOUR="0.32549019607843138,0.035294117647058823,0.74901960784313726"
-#!   CONTENTS="208 212 217 206 213 209 210 216 221 215 220 207 211 219 223 222 218 214 "
+#!   CONTENTS="218 208 220 211 221 219 215 216 217 214 210 207 222 206 213 223 209 212 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="230"
 #!   NAME="lote_1_alt_medida_4_3_6"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="1406.1805056553246 1624.2668371669868"
 #!   ORDER="500000000000218"
 #!   BOTTOM_RIGHT="4774.7803681245368 1049.4561795088882"
 #!   BOUNDING_RECT="1406.1805056553246 1624.2668371669868 3368.5998624692124 574.81065765809853"
 #!   STICKY="true"
 #!   COLOUR="0.70588235294117652,0.37647058823529411,0.52549019607843139"
-#!   CONTENTS="114 116 117 110 113 112 270 273 115 "
+#!   CONTENTS="273 114 116 270 117 110 112 113 115 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1169,8 +1169,8 @@
 #!   IDENTIFIER="10"
 #!   TYPE="Deaggregator"
 #!   VERSION="10"
-#!   POSITION="1497.500863303346 -1613.1867618039241"
-#!   BOUNDING_RECT="1497.500863303346 -1613.1867618039241 -1 -1"
+#!   POSITION="1508.8646133044817 -1635.9142618061967"
+#!   BOUNDING_RECT="1508.8646133044817 -1635.9142618061967 -1 -1"
 #!   ORDER="500000000000002"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1215,8 +1215,8 @@
 #!   IDENTIFIER="11"
 #!   TYPE="GeometryExtractor"
 #!   VERSION="14"
-#!   POSITION="2110.5292313648033 -1606.242247914337"
-#!   BOUNDING_RECT="2110.5292313648033 -1606.242247914337 -1 -1"
+#!   POSITION="3076.4479814613942 -1600.5603729137686"
+#!   BOUNDING_RECT="3076.4479814613942 -1600.5603729137686 -1 -1"
 #!   ORDER="500000000000003"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1283,8 +1283,8 @@
 #!   IDENTIFIER="13"
 #!   TYPE="DuplicateFilter"
 #!   VERSION="5"
-#!   POSITION="2733.9743702606365 -1616.6590187487154"
-#!   BOUNDING_RECT="2733.9743702606365 -1616.6590187487154 -1 -1"
+#!   POSITION="3626.0287453498413 -1610.977143748147"
+#!   BOUNDING_RECT="3626.0287453498413 -1610.977143748147 -1 -1"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1390,8 +1390,8 @@
 #!   IDENTIFIER="56"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="4048.568040641785 -1673.6040326432985"
-#!   BOUNDING_RECT="4048.568040641785 -1673.6040326432985 -1 -1"
+#!   POSITION="4940.6224157309898 -1667.9221576427301"
+#!   BOUNDING_RECT="4940.6224157309898 -1667.9221576427301 -1 -1"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1429,8 +1429,8 @@
 #!   IDENTIFIER="55"
 #!   TYPE="AttributeExposer"
 #!   VERSION="1"
-#!   POSITION="3493.0069294751165 -1666.6595187537159"
-#!   BOUNDING_RECT="3493.0069294751165 -1666.6595187537159 -1 -1"
+#!   POSITION="4385.0613045643213 -1660.9776437531475"
+#!   BOUNDING_RECT="4385.0613045643213 -1660.9776437531475 -1 -1"
 #!   ORDER="500000000000022"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1706,22 +1706,6 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="81"
-#!   TYPE="Terminator"
-#!   VERSION="3"
-#!   POSITION="5425.0994033690058 621.65526687096099"
-#!   BOUNDING_RECT="5425.0994033690058 621.65526687096099 -1 -1"
-#!   ORDER="500000000000048"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18310"
-#! >
-#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Translation&lt;space&gt;Terminated"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="231"
 #!   TYPE="SpikeRemover"
 #!   VERSION="2"
@@ -1991,6 +1975,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="AREA"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2006,7 +1991,6 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2016,6 +2000,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_remnant_type" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2031,7 +2016,6 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -2071,6 +2055,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="BUFFERED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2086,12 +2071,12 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2107,7 +2092,6 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2145,6 +2129,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2160,7 +2145,6 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2189,6 +2173,7 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="classe" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="observacao" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2204,7 +2189,6 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2312,6 +2296,7 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2327,7 +2312,6 @@
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2352,7 +2336,6 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="observacao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="classe" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cota_curva_nivel" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2361,24 +2344,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_related_candidates" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cota_pto_cotado" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_length" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_indices{}.x" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_indices{}.y" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_indices{}.z" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_histogram{}.count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_histogram{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.x" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2386,17 +2351,36 @@
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.z" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.repair_state" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_feature_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_related_candidates" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_length" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="erros{}.descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="descricao_join" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_indices{}.x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_indices{}.y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_indices{}.z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_histogram{}.count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_histogram{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota_curva_nivel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota_pto_cotado" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="MEASURE_NAME" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ALL" PARM_VALUE="Yes"/>
@@ -2418,7 +2402,6 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="observacao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="classe" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cota_curva_nivel" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2427,24 +2410,6 @@
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_related_candidates" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cota_pto_cotado" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_length" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_indices{}.x" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_indices{}.y" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_indices{}.z" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_histogram{}.count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_histogram{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.x" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2452,17 +2417,36 @@
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.location_sample.z" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_issues{}.repair_state" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_feature_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_related_candidates" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_overlaps" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_length" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="details" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="issue_found" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length1" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_spike_length2" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="erros{}.descricao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="descricao_join" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_indices{}.x" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_indices{}.y" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_indices{}.z" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_histogram{}.count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_histogram{}.value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota_curva_nivel" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota_pto_cotado" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="2DForcer_2"/>
 #! </TRANSFORMER>
@@ -2794,10 +2778,10 @@
 #!   IDENTIFIER="120"
 #!   TYPE="Clipper"
 #!   VERSION="12"
-#!   POSITION="3148.3881379853883 5789.2450069943488"
-#!   BOUNDING_RECT="3148.3881379853883 5789.2450069943488 -1 -1"
+#!   POSITION="3148.3881379853883 5794.9268819949175"
+#!   BOUNDING_RECT="3148.3881379853883 5794.9268819949175 -1 -1"
 #!   ORDER="500000000000008"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18310"
 #! >
@@ -2868,8 +2852,8 @@
 #!   IDENTIFIER="121"
 #!   TYPE="Deaggregator"
 #!   VERSION="10"
-#!   POSITION="3674.6100824270552 5681.6050417058068"
-#!   BOUNDING_RECT="3674.6100824270552 5681.6050417058068 -1 -1"
+#!   POSITION="3674.6100824270552 5687.2869167063755"
+#!   BOUNDING_RECT="3674.6100824270552 5687.2869167063755 -1 -1"
 #!   ORDER="500000000000010"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -2913,8 +2897,8 @@
 #!   IDENTIFIER="122"
 #!   TYPE="LengthCalculator"
 #!   VERSION="0"
-#!   POSITION="4232.0823393718456 5666.4989635105221"
-#!   BOUNDING_RECT="4232.0823393718456 5666.4989635105221 -1 -1"
+#!   POSITION="4232.0823393718456 5672.1808385110908"
+#!   BOUNDING_RECT="4232.0823393718456 5672.1808385110908 -1 -1"
 #!   ORDER="500000000000018"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -2956,10 +2940,10 @@
 #!   IDENTIFIER="123"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="4800.7309233576871 5666.4989635105221"
-#!   BOUNDING_RECT="4800.7309233576871 5666.4989635105221 -1 -1"
+#!   POSITION="4800.7309233576871 5672.1808385110908"
+#!   BOUNDING_RECT="4800.7309233576871 5672.1808385110908 -1 -1"
 #!   ORDER="500000000000019"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18310"
 #! >
@@ -2998,8 +2982,8 @@
 #!   IDENTIFIER="124"
 #!   TYPE="AttributeCreator"
 #!   VERSION="8"
-#!   POSITION="5479.0208755653603 5638.0182392330962"
-#!   BOUNDING_RECT="5479.0208755653603 5638.0182392330962 -1 -1"
+#!   POSITION="5479.0208755653603 5643.7001142336649"
+#!   BOUNDING_RECT="5479.0208755653603 5643.7001142336649 -1 -1"
 #!   ORDER="500000000000020"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -3021,7 +3005,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; observacao SET_TO Relacionamento&lt;space&gt;espacial&lt;space&gt;inv&lt;u00e1&gt;lido&lt;space&gt;entre&lt;space&gt;Curva_Nivel&lt;space&gt;e&lt;space&gt;Massa_Dagua  classe SET_TO lote_1_alt_medida_4_3_2"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; observacao SET_TO Relacionamento&lt;space&gt;espacial&lt;space&gt;inv&lt;u00e1&gt;lido&lt;space&gt;entre&lt;space&gt;Curva_Nivel&lt;space&gt;e&lt;space&gt;Massa_Dagua  classe SET_TO lote_1_alt_medida_4_3_1"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -3034,8 +3018,8 @@
 #!   IDENTIFIER="126"
 #!   TYPE="SubDocumentTransformer"
 #!   VERSION="0"
-#!   POSITION="1591.9925115323008 5588.1697922237136"
-#!   BOUNDING_RECT="1591.9925115323008 5588.1697922237136 -1 -1"
+#!   POSITION="1591.9925115323008 5593.8516672242822"
+#!   BOUNDING_RECT="1591.9925115323008 5593.8516672242822 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -3060,8 +3044,8 @@
 #!   IDENTIFIER="127"
 #!   TYPE="SubDocumentTransformer"
 #!   VERSION="0"
-#!   POSITION="1560.3466254531875 5813.6467305373999"
-#!   BOUNDING_RECT="1560.3466254531875 5813.6467305373999 -1 -1"
+#!   POSITION="1560.3466254531875 5819.3286055379685"
+#!   BOUNDING_RECT="1560.3466254531875 5819.3286055379685 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -3086,8 +3070,8 @@
 #!   IDENTIFIER="128"
 #!   TYPE="SubDocumentTransformer"
 #!   VERSION="0"
-#!   POSITION="2383.1355688959138 5603.9920830768106"
-#!   BOUNDING_RECT="2383.1355688959138 5603.9920830768106 -1 -1"
+#!   POSITION="2383.1355688959138 5609.6739580773792"
+#!   BOUNDING_RECT="2383.1355688959138 5609.6739580773792 -1 -1"
 #!   ORDER="500000000000000"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -3340,7 +3324,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_clipped" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; observacao SET_TO Relacionamento&lt;space&gt;espacial&lt;space&gt;inv&lt;u00e1&gt;lido&lt;space&gt;entre&lt;space&gt;Curva_Nivel&lt;space&gt;e&lt;space&gt;Trecho_Massa_Dagua  classe SET_TO lote_1_alt_medida_4_3_1"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; observacao SET_TO Relacionamento&lt;space&gt;espacial&lt;space&gt;inv&lt;u00e1&gt;lido&lt;space&gt;entre&lt;space&gt;Curva_Nivel&lt;space&gt;e&lt;space&gt;Trecho_Massa_Dagua  classe SET_TO lote_1_alt_medida_4_3_2"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -3442,9 +3426,9 @@
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3456,9 +3440,9 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -3495,9 +3479,9 @@
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3510,9 +3494,9 @@
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
 #!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -3552,9 +3536,9 @@
 #!     <XFORM_ATTR ATTR_NAME="observacao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="classe" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3585,9 +3569,9 @@
 #!     <XFORM_ATTR ATTR_NAME="observacao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="classe" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3619,15 +3603,15 @@
 #!     <XFORM_ATTR ATTR_NAME="observacao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="classe" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_predicate" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_4"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -5048,6 +5032,91 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryValidator_4"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="261"
+#!   TYPE="2DForcer"
+#!   VERSION="0"
+#!   POSITION="2051.1568752051153 -1732.9718751732969"
+#!   BOUNDING_RECT="2051.1568752051153 -1732.9718751732969 -1 -1"
+#!   ORDER="500000000000234"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18310"
+#! >
+#!     <OUTPUT_FEAT NAME="2D"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="2DForcer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="264"
+#!   TYPE="MeasureRemover"
+#!   VERSION="0"
+#!   POSITION="2605.1568752051153 -1732.9718751732969"
+#!   BOUNDING_RECT="2605.1568752051153 -1732.9718751732969 -1 -1"
+#!   ORDER="500000000000235"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18310"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="COTA" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="depressao" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="indice" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cota" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="cotacompro" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_hierarchy_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_hierarchy_parent_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_part_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="MEASURE_NAME" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REMOVE_ALL" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="MeasureRemover"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="266"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="5276.8060587290638 772.26002768849071"
+#!   BOUNDING_RECT="5276.8060587290638 772.26002768849071 -1 -1"
+#!   ORDER="500000000000236"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18310"
+#! >
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3_Passed"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -5282,9 +5351,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="12"
+#!   IDENTIFIER="262"
 #!   SOURCE_NODE="10"
-#!   TARGET_NODE="11"
+#!   TARGET_NODE="261"
 #!   SOURCE_PORT_DESC="fo 0 DEAGGREGATED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -5348,9 +5417,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="84"
+#!   IDENTIFIER="267"
 #!   SOURCE_NODE="78"
-#!   TARGET_NODE="81"
+#!   TARGET_NODE="266"
 #!   SOURCE_PORT_DESC="fo 0 PASSED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -6015,6 +6084,28 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="265"
+#!   SOURCE_NODE="261"
+#!   TARGET_NODE="264"
+#!   SOURCE_PORT_DESC="fo 0 2D"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="263"
+#!   SOURCE_NODE="264"
+#!   TARGET_NODE="11"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -7100,6 +7191,7 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 MAPPING_FILE_ID Verifica<u00e7><u00e3>o<space>da<space>qualidade<space>de<space>vetores<space>de<space>hidrografia
+LOG_TIMINGS YES
 LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_2 ESRISHAPE_2
@@ -7121,32 +7213,38 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME verificacao_qualidade_altimetria
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-ESRISHAPE_1_DEF HID_Trecho_Massa_Dagua_A   SHAPE_GEOMETRY               shape_polygon   Id                           long   tipotrecho                   long   regime                       long
+
+INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
+MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
+MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
+MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 # -------------------------------------------------------------------------
 ESRISHAPE_1_DEF HID_Massa_Dagua   SHAPE_GEOMETRY               shape_polygon   Id                           long   tipomassa                    long   regime                       long
 # -------------------------------------------------------------------------
-ESRISHAPE_2_DEF REL_Curva_Nivel_L   SHAPE_GEOMETRY               shape_polyline   COTA                         double   depressao                    short   indice                       short
+ESRISHAPE_1_DEF HID_Trecho_Massa_Dagua_A   SHAPE_GEOMETRY               shape_polygon   Id                           long   tipotrecho                   long   regime                       long
 # -------------------------------------------------------------------------
 ESRISHAPE_2_DEF REL_Ponto_Cotado_Altimetrico_P   SHAPE_GEOMETRY               shape_point   Id                           long   cota                         short   cotacompro                   long
 # -------------------------------------------------------------------------
+ESRISHAPE_2_DEF REL_Curva_Nivel_L   SHAPE_GEOMETRY               shape_polyline   COTA                         double   depressao                    short   indice                       short
+# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE ESRISHAPE ESRISHAPE_1::HID_Trecho_Massa_Dagua_A multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC ::HID_Trecho_Massa_Dagua_A ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_1::HID_Massa_Dagua multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC ::HID_Massa_Dagua ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_2::REL_Curva_Nivel_L multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_2) TO FME_GENERIC ::REL_Curva_Nivel_L ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_2::REL_Ponto_Cotado_Altimetrico_P multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_2) TO FME_GENERIC ::REL_Ponto_Cotado_Altimetrico_P ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::HID_Trecho_Massa_Dagua_A EXACT HID_Trecho_Massa_Dagua_A
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE ESRISHAPE ESRISHAPE_1::HID_Massa_Dagua multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC ::HID_Massa_Dagua ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_1::HID_Trecho_Massa_Dagua_A multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC ::HID_Trecho_Massa_Dagua_A ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_2::REL_Ponto_Cotado_Altimetrico_P multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_2) TO FME_GENERIC ::REL_Ponto_Cotado_Altimetrico_P ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_2::REL_Curva_Nivel_L multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_2) TO FME_GENERIC ::REL_Curva_Nivel_L ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::HID_Massa_Dagua EXACT HID_Massa_Dagua
-ESRISHAPE_2_MERGE_DEF ESRISHAPE_2::REL_Curva_Nivel_L EXACT REL_Curva_Nivel_L
+ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::HID_Trecho_Massa_Dagua_A EXACT HID_Trecho_Massa_Dagua_A
 ESRISHAPE_2_MERGE_DEF ESRISHAPE_2::REL_Ponto_Cotado_Altimetrico_P EXACT REL_Ponto_Cotado_Altimetrico_P
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "REL_Curva_Nivel_L (ESRISHAPE_2) Splitter"    INPUT FEATURE_TYPE REL_Curva_Nivel_L    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_0_1AC9AmQ17r0=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_1_VUSCvgKLXJY=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_2_dOu3erCeF9k=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_3_biyKF25qCBI=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_4_bVByy6nuEhk=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_5_ks1bdfA7pNg=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_6_RZxNhjV9ZBg=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_7_wjC8sjnC+I8=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_8_u3g9ta32dGE=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_9_+Cet8xDk+1U=
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "REL_Ponto_Cotado_Altimetrico_P (ESRISHAPE_2) Splitter"    INPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_0_1yQHII1f0Zo=    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_1_Q2jx8I6Zsns=    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_2_FvDZ14uP7Gc=    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_3_BFC+SInddDA=    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_4_3qm6aMktW2Y=
+ESRISHAPE_2_MERGE_DEF ESRISHAPE_2::REL_Curva_Nivel_L EXACT REL_Curva_Nivel_L
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "HID_Trecho_Massa_Dagua_A (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A    OUTPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_1_0_GazNkgHjOxU=    OUTPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_1_1_CUM5EG5bAFU=    OUTPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_1_2_DOLUDaG5IpE=
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "HID_Massa_Dagua (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE HID_Massa_Dagua    OUTPUT FEATURE_TYPE HID_Massa_Dagua_ESRISHAPE_1_0_sK2UE+1sQ9c=    OUTPUT FEATURE_TYPE HID_Massa_Dagua_ESRISHAPE_1_1_PkM59OgcjJk=    OUTPUT FEATURE_TYPE HID_Massa_Dagua_ESRISHAPE_1_2_bPxmzhzlezk=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "REL_Curva_Nivel_L (ESRISHAPE_2) Splitter"    INPUT FEATURE_TYPE REL_Curva_Nivel_L    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_0_1AC9AmQ17r0=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_1_VUSCvgKLXJY=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_2_dOu3erCeF9k=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_3_biyKF25qCBI=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_4_bVByy6nuEhk=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_5_ks1bdfA7pNg=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_6_RZxNhjV9ZBg=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_7_wjC8sjnC+I8=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_8_u3g9ta32dGE=    OUTPUT FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_9_+Cet8xDk+1U=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "REL_Ponto_Cotado_Altimetrico_P (ESRISHAPE_2) Splitter"    INPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_0_1yQHII1f0Zo=    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_1_Q2jx8I6Zsns=    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_2_FvDZ14uP7Gc=    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_3_BFC+SInddDA=    OUTPUT FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_4_3qm6aMktW2Y=
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
@@ -7164,7 +7262,7 @@ MACRO $(fix_2d_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(fix_2d_WORKSPACE_NAME)_SUB_DOC_NAME fix_2d
 DEFAULT_MACRO fix_2d_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(fix_2d_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_2DForcer_3    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"    OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_2D"         @Dimension(2)
@@ -7178,7 +7276,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_MeasureRemover
 
 FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_Deaggregator_7    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_MeasureRemover_4_OUTPUT"    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT LINE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT POLYGON FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT DONUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT AGGREGATE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1528829254 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1532094400 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_12 Deaggregator_7_Deaggregated Output Renamer/Nuker"   INPUT FEATURE_TYPE fix_2d_12_Deaggregator_7_Deaggregated   OUTPUT FEATURE_TYPE fix_2d_12_Deaggregator_7_Deaggregated
 # -------------------------------------------------------------------------
@@ -7218,6 +7316,15 @@ FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator    INPUT  FEATURE_
 
 # -------------------------------------------------------------------------
 
+FACTORY_DEF * TeeFactory    FACTORY_NAME 2DForcer    INPUT  FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT FEATURE_TYPE 2DForcer_2D         @Dimension(2)
+
+# -------------------------------------------------------------------------
+
+INCLUDE [          if { ({Yes} == {Yes}) } {             puts {MACRO MeasureRemover_func @Geometry(REMOVE_ALL_MEASURES)};          } else {             puts {MACRO MeasureRemover_func @Geometry(REMOVE_MEASURES, "") };          }          ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME MeasureRemover    INPUT  FEATURE_TYPE 2DForcer_2D    OUTPUT FEATURE_TYPE MeasureRemover_OUTPUT         $(MeasureRemover_func)
+
+# -------------------------------------------------------------------------
+
 # First determine which function we are going to be using -- we can do
 # this statically at parse time for efficiency sake
 
@@ -7228,7 +7335,7 @@ INCLUDE [ if {{fmebinary} == {fmebinary} } {               puts {MACRO GeometryE
 
 MACRO GeometryExtractor_GeometryRemoveFunction
 INCLUDE [ if {{No} == {Yes} } {               puts {MACRO GeometryExtractor_GeometryRemoveFunction @RemoveGeometry() }           }         ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryExtractor    INPUT  FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)         $(GeometryExtractor_Function)         $(GeometryExtractor_GeometryRemoveFunction)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryExtractor    INPUT  FEATURE_TYPE MeasureRemover_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___         @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)         $(GeometryExtractor_Function)         $(GeometryExtractor_GeometryRemoveFunction)
 FACTORY_DEF * TestFactory    FACTORY_NAME GeometryExtractor_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT FAILED FEATURE_TYPE GeometryExtractor_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 
 # -------------------------------------------------------------------------
@@ -7253,7 +7360,7 @@ MACRO $(fix_2d_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(fix_2d_WORKSPACE_NAME)_SUB_DOC_NAME fix_2d
 DEFAULT_MACRO fix_2d_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(fix_2d_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_2DForcer_3    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"    OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_2D"         @Dimension(2)
@@ -7267,7 +7374,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_MeasureRemover
 
 FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_Deaggregator_7    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_MeasureRemover_4_OUTPUT"    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT LINE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT POLYGON FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT DONUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT AGGREGATE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1528829254 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1532094400 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_2 Deaggregator_7_Deaggregated Output Renamer/Nuker"   INPUT FEATURE_TYPE fix_2d_2_Deaggregator_7_Deaggregated   OUTPUT FEATURE_TYPE fix_2d_2_Deaggregator_7_Deaggregated
 # -------------------------------------------------------------------------
@@ -7279,7 +7386,7 @@ MACRO $(chop_curva_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(chop_curva_WORKSPACE_NAME)_SUB_DOC_NAME chop_curva
 DEFAULT_MACRO chop_curva_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(chop_curva_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(chop_curva_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_LengthCalculator_LengthCalculatorInput    INPUT  FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"    OUTPUT FEATURE_TYPE ___TOLENGTHCALCULATOR___
@@ -7293,7 +7400,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_Tester   
 
 FACTORY_DEF * ChoppingFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_Chopper    INPUT  FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_PASSED"    MODE LENGTH    MAX_VERTICES "<Unused>"    APPROX_LENGTH "10000"    REMNANT_ATTRIBUTE "<Unused>"    CHOP_POLYGONS GRID_POLYGONS    REJECT_INVALID_GEOM Yes    DEAGGREGATE_INPUT Deaggregate    OUTPUT CHOPPED FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"    OUTPUT UNTOUCHED FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped1528829254 Output Collector"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_FAILED"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped1532094400 Output Collector"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_FAILED"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(chop_curva_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "chop_curva Chopper_Chopped Output Renamer/Nuker"   INPUT FEATURE_TYPE chop_curva_Chopper_Chopped   OUTPUT FEATURE_TYPE chop_curva_Chopper_Chopped
 # -------------------------------------------------------------------------
@@ -7305,7 +7412,7 @@ MACRO $(fix_2d_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(fix_2d_WORKSPACE_NAME)_SUB_DOC_NAME fix_2d
 DEFAULT_MACRO fix_2d_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(fix_2d_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_2DForcer_3    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"    OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_2D"         @Dimension(2)
@@ -7319,7 +7426,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_MeasureRemover
 
 FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_Deaggregator_7    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_MeasureRemover_4_OUTPUT"    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT LINE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT POLYGON FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT DONUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT AGGREGATE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1528829254 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1532094400 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_8 Deaggregator_7_Deaggregated Output Renamer/Nuker"   INPUT FEATURE_TYPE fix_2d_8_Deaggregator_7_Deaggregated   OUTPUT FEATURE_TYPE fix_2d_8_Deaggregator_7_Deaggregated
 # -------------------------------------------------------------------------
@@ -7331,7 +7438,7 @@ MACRO $(chop_curva_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(chop_curva_WORKSPACE_NAME)_SUB_DOC_NAME chop_curva
 DEFAULT_MACRO chop_curva_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(chop_curva_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(chop_curva_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_LengthCalculator_LengthCalculatorInput    INPUT  FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"    OUTPUT FEATURE_TYPE ___TOLENGTHCALCULATOR___
@@ -7345,7 +7452,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_Tester   
 
 FACTORY_DEF * ChoppingFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_Chopper    INPUT  FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_PASSED"    MODE LENGTH    MAX_VERTICES "<Unused>"    APPROX_LENGTH "10000"    REMNANT_ATTRIBUTE "<Unused>"    CHOP_POLYGONS GRID_POLYGONS    REJECT_INVALID_GEOM Yes    DEAGGREGATE_INPUT Deaggregate    OUTPUT CHOPPED FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"    OUTPUT UNTOUCHED FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped1528829254 Output Collector"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_FAILED"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped1532094400 Output Collector"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_FAILED"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(chop_curva_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "chop_curva_2 Chopper_Chopped Output Renamer/Nuker"   INPUT FEATURE_TYPE chop_curva_2_Chopper_Chopped   OUTPUT FEATURE_TYPE chop_curva_2_Chopper_Chopped
 # -------------------------------------------------------------------------
@@ -7357,7 +7464,7 @@ MACRO $(fix_2d_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(fix_2d_WORKSPACE_NAME)_SUB_DOC_NAME fix_2d
 DEFAULT_MACRO fix_2d_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(fix_2d_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_2DForcer_3    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"    OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_2D"         @Dimension(2)
@@ -7371,7 +7478,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_MeasureRemover
 
 FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_Deaggregator_7    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_MeasureRemover_4_OUTPUT"    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT LINE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT POLYGON FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT DONUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT AGGREGATE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1528829254 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1532094400 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_11 Deaggregator_7_Deaggregated Output Renamer/Nuker"   INPUT FEATURE_TYPE fix_2d_11_Deaggregator_7_Deaggregated   OUTPUT FEATURE_TYPE fix_2d_11_Deaggregator_7_Deaggregated
 # -------------------------------------------------------------------------
@@ -7429,8 +7536,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_3_InputPassThrough    IN
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_3_InstanceTest    INPUT FEATURE_TYPE GeometryFilter_3___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_3___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_3_CollectionTest    INPUT FEATURE_TYPE GeometryFilter_3___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter_3___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter_3___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_3_Deagg    INPUT FEATURE_TYPE GeometryFilter_3___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_3_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter_3___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter_3___Input___    OUTPUT FEATURE_TYPE GeometryFilter_3___Prepped___        GeometryFilter_3_d50d6556_ccba_4289_91d5_5b21df9a42c37_targetFeatureType @Lookup(GeometryFilter_3_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_3_Router    INPUT FEATURE_TYPE GeometryFilter_3___Prepped___    TEST @Value(GeometryFilter_3_d50d6556_ccba_4289_91d5_5b21df9a42c37_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_3_d50d6556_ccba_4289_91d5_5b21df9a42c37_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_3_d50d6556_ccba_4289_91d5_5b21df9a42c37_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_3_<UNFILTERED>        @RemoveAttributes(GeometryFilter_3_d50d6556_ccba_4289_91d5_5b21df9a42c37_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_3_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter_3___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter_3___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter_3___Input___    OUTPUT FEATURE_TYPE GeometryFilter_3___Prepped___        GeometryFilter_3_6e0d739e_10ab_41fc_912a_c6a918c2eadb0_targetFeatureType @Lookup(GeometryFilter_3_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_3_Router    INPUT FEATURE_TYPE GeometryFilter_3___Prepped___    TEST @Value(GeometryFilter_3_6e0d739e_10ab_41fc_912a_c6a918c2eadb0_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_3_6e0d739e_10ab_41fc_912a_c6a918c2eadb0_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_3_6e0d739e_10ab_41fc_912a_c6a918c2eadb0_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_3_<UNFILTERED>        @RemoveAttributes(GeometryFilter_3_6e0d739e_10ab_41fc_912a_c6a918c2eadb0_targetFeatureType)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter_3 <UNFILTERED> Transformer Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_3_<UNFILTERED>
 # -------------------------------------------------------------------------
@@ -7457,7 +7564,7 @@ MACRO $(fix_2d_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(fix_2d_WORKSPACE_NAME)_SUB_DOC_NAME fix_2d
 DEFAULT_MACRO fix_2d_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(fix_2d_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_2DForcer_3    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"    OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_2D"         @Dimension(2)
@@ -7471,7 +7578,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_MeasureRemover
 
 FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_Deaggregator_7    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_MeasureRemover_4_OUTPUT"    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT LINE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT POLYGON FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT DONUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT AGGREGATE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1528829254 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1532094400 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_13 Deaggregator_7_Deaggregated Output Renamer/Nuker"   INPUT FEATURE_TYPE fix_2d_13_Deaggregator_7_Deaggregated   OUTPUT FEATURE_TYPE fix_2d_13_Deaggregator_7_Deaggregated
 # -------------------------------------------------------------------------
@@ -7527,7 +7634,7 @@ MACRO $(fix_2d_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(fix_2d_WORKSPACE_NAME)_SUB_DOC_NAME fix_2d
 DEFAULT_MACRO fix_2d_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(fix_2d_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_2DForcer_3    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"    OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_2D"         @Dimension(2)
@@ -7541,7 +7648,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_MeasureRemover
 
 FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_Deaggregator_7    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_MeasureRemover_4_OUTPUT"    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT LINE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT POLYGON FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT DONUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT AGGREGATE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1528829254 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1532094400 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_3 Deaggregator_7_Deaggregated Output Renamer/Nuker"   INPUT FEATURE_TYPE fix_2d_3_Deaggregator_7_Deaggregated   OUTPUT FEATURE_TYPE fix_2d_3_Deaggregator_7_Deaggregated
 # -------------------------------------------------------------------------
@@ -7553,7 +7660,7 @@ MACRO $(chop_curva_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(chop_curva_WORKSPACE_NAME)_SUB_DOC_NAME chop_curva
 DEFAULT_MACRO chop_curva_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(chop_curva_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(chop_curva_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_LengthCalculator_LengthCalculatorInput    INPUT  FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Input"    OUTPUT FEATURE_TYPE ___TOLENGTHCALCULATOR___
@@ -7567,7 +7674,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_Tester   
 
 FACTORY_DEF * ChoppingFactory    FACTORY_NAME $(chop_curva_WORKSPACE_NAME)_Chopper    INPUT  FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_PASSED"    MODE LENGTH    MAX_VERTICES "<Unused>"    APPROX_LENGTH "10000"    REMNANT_ATTRIBUTE "<Unused>"    CHOP_POLYGONS GRID_POLYGONS    REJECT_INVALID_GEOM Yes    DEAGGREGATE_INPUT Deaggregate    OUTPUT CHOPPED FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"    OUTPUT UNTOUCHED FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped1528829254 Output Collector"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_FAILED"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped1532094400 Output Collector"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_CHOPPED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_UNTOUCHED"   INPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Tester_FAILED"   OUTPUT FEATURE_TYPE "$(chop_curva_WORKSPACE_NAME)_Chopper_Chopped"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(chop_curva_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "chop_curva_3 Chopper_Chopped Output Renamer/Nuker"   INPUT FEATURE_TYPE chop_curva_3_Chopper_Chopped   OUTPUT FEATURE_TYPE chop_curva_3_Chopper_Chopped
 # -------------------------------------------------------------------------
@@ -7593,7 +7700,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_23    INPUT  FEA
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator_4    INPUT  FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_0_1yQHII1f0Zo=    INPUT  FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_1_VUSCvgKLXJY=    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE Deaggregator_4_DEAGGREGATED    OUTPUT LINE FEATURE_TYPE Deaggregator_4_DEAGGREGATED    OUTPUT POLYGON FEATURE_TYPE Deaggregator_4_DEAGGREGATED    OUTPUT DONUT FEATURE_TYPE Deaggregator_4_DEAGGREGATED    OUTPUT AGGREGATE FEATURE_TYPE Deaggregator_4_DEAGGREGATED
+FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator_4    INPUT  FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_1_VUSCvgKLXJY=    INPUT  FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_0_1yQHII1f0Zo=    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE Deaggregator_4_DEAGGREGATED    OUTPUT LINE FEATURE_TYPE Deaggregator_4_DEAGGREGATED    OUTPUT POLYGON FEATURE_TYPE Deaggregator_4_DEAGGREGATED    OUTPUT DONUT FEATURE_TYPE Deaggregator_4_DEAGGREGATED    OUTPUT AGGREGATE FEATURE_TYPE Deaggregator_4_DEAGGREGATED
 
 # -------------------------------------------------------------------------
 
@@ -7616,14 +7723,20 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeValueMapper    INPUT  FEATURE_
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE AttributeValueMapper_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>descricao<closeparen>,Tester_3) = ERRO ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_3_FAILED
 # -------------------------------------------------------------------------
 
-# The default behaviour is to abort on any feature entering the transformer.
-# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
-# then the features will instead be passed through with a feature type of
-# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
-# somesuch.
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Tester_3_Passed} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
+FACTORY_DEF {*} InspectorFactory    FACTORY_NAME Tester_3_Passed_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_3_PASSED    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { Tester_3_Passed }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
 
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TestFactory    FACTORY_NAME Terminator    INPUT  FEATURE_TYPE Tester_3_PASSED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Translation<space>Terminated")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Translation<space>Terminated")
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+
+FACTORY_DEF * RecorderFactory    FACTORY_NAME Tester_3_Passed_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA COTA,varchar<openparen>255<closeparen>,depressao,varchar<openparen>255<closeparen>,indice,varchar<openparen>255<closeparen>,Id,varchar<openparen>255<closeparen>,cota,varchar<openparen>255<closeparen>,cotacompro,varchar<openparen>255<closeparen>,_geometry_name,varchar<openparen>255<closeparen>,_hierarchy_id,varchar<openparen>255<closeparen>,_hierarchy_parent_id,varchar<openparen>255<closeparen>,_part_number,varchar<openparen>255<closeparen>,fme_feature_type,varchar<openparen>255<closeparen>,count,varchar<openparen>255<closeparen>,details,varchar<openparen>255<closeparen>,issue_found,varchar<openparen>255<closeparen>,descricao,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 
 # -------------------------------------------------------------------------
 MACRO OUTPUT_POINT_FTYPE not_selected
@@ -7643,8 +7756,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_InputPassThrough    INPU
 FACTORY_DEF $(INSTANCE_FILTERING) TestFactory    FACTORY_NAME GeometryFilter_InstanceTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE)    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Input___
 FACTORY_DEF $(COLLECTION_HANDLING) TestFactory    FACTORY_NAME GeometryFilter_CollectionTest    INPUT FEATURE_TYPE GeometryFilter___Input___    TEST &fme_type == "fme_collection"    OUTPUT FAILED FEATURE_TYPE GeometryFilter___Not_Collection___    OUTPUT PASSED FEATURE_TYPE GeometryFilter___Collection___
 FACTORY_DEF $(COLLECTION_HANDLING) DeaggregateFactory    FACTORY_NAME GeometryFilter_Deagg    INPUT FEATURE_TYPE GeometryFilter___Collection___    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW <Unused>    OUTPUT POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    OUTPUT AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___
-FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_3e7d3f48_5ec1_4fd0_b490_a2ae1c9c8a4216_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
-FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_3e7d3f48_5ec1_4fd0_b490_a2ae1c9c8a4216_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_3e7d3f48_5ec1_4fd0_b490_a2ae1c9c8a4216_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_3e7d3f48_5ec1_4fd0_b490_a2ae1c9c8a4216_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_3e7d3f48_5ec1_4fd0_b490_a2ae1c9c8a4216_targetFeatureType)
+FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryFilter_RouterPrepper    INPUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___    INPUT FEATURE_TYPE GeometryFilter___Not_Collection___    INPUT FEATURE_TYPE GeometryFilter___Input___    OUTPUT FEATURE_TYPE GeometryFilter___Prepped___        GeometryFilter_a97ec20a_0d74_43b8_b196_b66b896b24f60_targetFeatureType @Lookup(GeometryFilter_RouterTable,&fme_type)
+FACTORY_DEF * TestFactory    FACTORY_NAME GeometryFilter_Router    INPUT FEATURE_TYPE GeometryFilter___Prepped___    TEST @Value(GeometryFilter_a97ec20a_0d74_43b8_b196_b66b896b24f60_targetFeatureType) != "not_selected"    OUTPUT PASSED FEATURE_TYPE * @FeatureType(@Value(GeometryFilter_a97ec20a_0d74_43b8_b196_b66b896b24f60_targetFeatureType))                                 @RemoveAttributes(GeometryFilter_a97ec20a_0d74_43b8_b196_b66b896b24f60_targetFeatureType)    OUTPUT FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes(GeometryFilter_a97ec20a_0d74_43b8_b196_b66b896b24f60_targetFeatureType)
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter POINT Transformer Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_POINT
 # -------------------------------------------------------------------------
@@ -7730,7 +7843,7 @@ MACRO $(fix_2d_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(fix_2d_WORKSPACE_NAME)_SUB_DOC_NAME fix_2d
 DEFAULT_MACRO fix_2d_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(fix_2d_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_2DForcer_3    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"    OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_2D"         @Dimension(2)
@@ -7744,7 +7857,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_MeasureRemover
 
 FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_Deaggregator_7    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_MeasureRemover_4_OUTPUT"    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT LINE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT POLYGON FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT DONUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT AGGREGATE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1528829254 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1532094400 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_4 Deaggregator_7_Deaggregated Output Renamer/Nuker"   INPUT FEATURE_TYPE fix_2d_4_Deaggregator_7_Deaggregated   OUTPUT FEATURE_TYPE fix_2d_4_Deaggregator_7_Deaggregated
 # -------------------------------------------------------------------------
@@ -7782,12 +7895,12 @@ FACTORY_DEF * TestFactory    FACTORY_NAME LengthCalculator_Rejector    INPUT FEA
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_2    INPUT  FEATURE_TYPE LengthCalculator_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_length<closeparen>,Tester_2) > 2 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_2_PASSED
 # -------------------------------------------------------------------------
 
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    INPUT  FEATURE_TYPE Tester_2_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "Relacionamento<space>espacial<space>inv<u00e1>lido<space>entre<space>Curva_Nivel<space>e<space>Massa_Dagua" }      ATTR_ACTION { "" "classe" "SET_TO" "lote_1_alt_medida_4_3_2" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    INPUT  FEATURE_TYPE Tester_2_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "Relacionamento<space>espacial<space>inv<u00e1>lido<space>entre<space>Curva_Nivel<space>e<space>Massa_Dagua" }      ATTR_ACTION { "" "classe" "SET_TO" "lote_1_alt_medida_4_3_1" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
 
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF {*} SpatialFilterFactory    FACTORY_NAME SpatialFilter_2    INPUT BASE FEATURE_TYPE HID_Massa_Dagua_ESRISHAPE_1_2_bPxmzhzlezk=    INPUT BASE FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_1_2_DOLUDaG5IpE=    INPUT CANDIDATE FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_2_FvDZ14uP7Gc=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CANDIDATE_IF_CONFLICT"    BASE_ATTR_PREFIX "<Unused>"    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_2_PASSED
+FACTORY_DEF {*} SpatialFilterFactory    FACTORY_NAME SpatialFilter_2    INPUT BASE FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_1_2_DOLUDaG5IpE=    INPUT BASE FEATURE_TYPE HID_Massa_Dagua_ESRISHAPE_1_2_bPxmzhzlezk=    INPUT CANDIDATE FEATURE_TYPE REL_Ponto_Cotado_Altimetrico_P_ESRISHAPE_2_2_FvDZ14uP7Gc=    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CANDIDATE_IF_CONFLICT"    BASE_ATTR_PREFIX "<Unused>"    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_2_PASSED
 
 # -------------------------------------------------------------------------
 
@@ -7796,7 +7909,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_11    INPUT  FEA
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF {*} SpatialFilterFactory    FACTORY_NAME SpatialFilter_3    INPUT BASE FEATURE_TYPE HID_Massa_Dagua_ESRISHAPE_1_1_PkM59OgcjJk=    INPUT BASE FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_1_1_CUM5EG5bAFU=    INPUT CANDIDATE FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_7_wjC8sjnC+I8=    PREDICATE "CONTAINS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CANDIDATE_IF_CONFLICT"    BASE_ATTR_PREFIX "<Unused>"    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_3_PASSED
+FACTORY_DEF {*} SpatialFilterFactory    FACTORY_NAME SpatialFilter_3    INPUT BASE FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_1_1_CUM5EG5bAFU=    INPUT BASE FEATURE_TYPE HID_Massa_Dagua_ESRISHAPE_1_1_PkM59OgcjJk=    INPUT CANDIDATE FEATURE_TYPE REL_Curva_Nivel_L_ESRISHAPE_2_7_wjC8sjnC+I8=    PREDICATE "CONTAINS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CANDIDATE_IF_CONFLICT"    BASE_ATTR_PREFIX "<Unused>"    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_3_PASSED
 
 # -------------------------------------------------------------------------
 
@@ -7804,7 +7917,7 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_12    INPUT  FEA
 
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_4    INPUT  FEATURE_TYPE AttributeCreator_12_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_11_OUTPUT    OUTPUT FEATURE_TYPE Junction_4_Output
+FACTORY_DEF * TeeFactory    FACTORY_NAME Junction_4    INPUT  FEATURE_TYPE AttributeCreator_11_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_12_OUTPUT    OUTPUT FEATURE_TYPE Junction_4_Output
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_9 2DForcer_3_Input Input Collector"   INPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_1_0_GazNkgHjOxU=   OUTPUT FEATURE_TYPE fix_2d_9_2DForcer_3_Input
 MACRO fix_2d_WORKSPACE_NAME fix_2d_9
@@ -7814,7 +7927,7 @@ MACRO $(fix_2d_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(fix_2d_WORKSPACE_NAME)_SUB_DOC_NAME fix_2d
 DEFAULT_MACRO fix_2d_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(fix_2d_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1528829254 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input1532094400 Input Splitter"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_2DForcer_3    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_Input"    OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_2DForcer_3_2D"         @Dimension(2)
@@ -7828,7 +7941,7 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_MeasureRemover
 
 FACTORY_DEF * DeaggregateFactory    FACTORY_NAME $(fix_2d_WORKSPACE_NAME)_Deaggregator_7    INPUT  FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_MeasureRemover_4_OUTPUT"    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT LINE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT POLYGON FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT DONUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"    OUTPUT AGGREGATE FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1528829254 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated1532094400 Output Collector"   INPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_DEAGGREGATED"   OUTPUT FEATURE_TYPE "$(fix_2d_WORKSPACE_NAME)_Deaggregator_7_Deaggregated"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(fix_2d_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "fix_2d_9 Deaggregator_7_Deaggregated Output Renamer/Nuker"   INPUT FEATURE_TYPE fix_2d_9_Deaggregator_7_Deaggregated   OUTPUT FEATURE_TYPE fix_2d_9_Deaggregator_7_Deaggregated
 # -------------------------------------------------------------------------
@@ -7866,12 +7979,12 @@ FACTORY_DEF * TestFactory    FACTORY_NAME LengthCalculator_4_Rejector    INPUT F
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_4    INPUT  FEATURE_TYPE LengthCalculator_4_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_length<closeparen>,Tester_4) < 12 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_4_PASSED
 # -------------------------------------------------------------------------
 
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_8    INPUT  FEATURE_TYPE Tester_4_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "Relacionamento<space>espacial<space>inv<u00e1>lido<space>entre<space>Curva_Nivel<space>e<space>Trecho_Massa_Dagua" }      ATTR_ACTION { "" "classe" "SET_TO" "lote_1_alt_medida_4_3_1" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_8_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_8    INPUT  FEATURE_TYPE Tester_4_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "Relacionamento<space>espacial<space>inv<u00e1>lido<space>entre<space>Curva_Nivel<space>e<space>Trecho_Massa_Dagua" }      ATTR_ACTION { "" "classe" "SET_TO" "lote_1_alt_medida_4_3_2" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_8_OUTPUT
 
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME 2DForcer_2    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_23_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_5_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_13_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_16_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_8_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    INPUT  FEATURE_TYPE Junction_4_Output    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_15_OUTPUT    OUTPUT FEATURE_TYPE 2DForcer_2_2D         @Dimension(2)
+FACTORY_DEF * TeeFactory    FACTORY_NAME 2DForcer_2    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_8_OUTPUT    INPUT  FEATURE_TYPE Junction_4_Output    INPUT  FEATURE_TYPE AttributeCreator_13_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_15_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_16_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_5_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_23_OUTPUT    OUTPUT FEATURE_TYPE 2DForcer_2_2D         @Dimension(2)
 
 # -------------------------------------------------------------------------
 
@@ -7880,9 +7993,9 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME MeasureRemover_2    INPUT  FEATURE_TYPE
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_d5de649a_b6aa_4f04_9912_5c139c689eef58_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_0a9a43a0_3769_4f8e_897e_203027b5e56c0_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE MeasureRemover_2_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,observacao,classe,fme_pcre_match,"^fme_$(AttributeKeeper_d5de649a_b6aa_4f04_9912_5c139c689eef58_LIST_EXP)")         }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE MeasureRemover_2_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,observacao,classe,fme_pcre_match,"^fme_$(AttributeKeeper_0a9a43a0_3769_4f8e_897e_203027b5e56c0_LIST_EXP)")         }
 
 # -------------------------------------------------------------------------
 
@@ -7915,10 +8028,14 @@ FACTORY_DEF $(USE_SOLID_BUFFER_FACTORY) SolidBufferingFactory    FACTORY_NAME Bu
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Bufferer_BUFFERED TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>HID_Trecho_Massa_Dagua_A<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>classe<lt>closeparen<gt><comma>HID_Trecho_Massa_Dagua_A<closeparen> GEOMETRY    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Bufferer_BUFFERED TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>HID_Trecho_Massa_Dagua_A<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma><lt>at<gt>Value<lt>openparen<gt>classe<lt>closeparen<gt><comma>HID_Trecho_Massa_Dagua_A<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
+FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
 # -------------------------------------------------------------------------
 ESRISHAPE_3_DEF HID_Trecho_Massa_Dagua_A   SHAPE_GEOMETRY               shape_polygon   shape_dimension              2d   observacao                   char(254)

@@ -20,8 +20,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18310"
-#!   FME_DOCUMENT_GUID="a9590d2f-ba13-401b-a4b8-57c7778b0765"
-#!   FME_DOCUMENT_PRIORGUID="dc6bf816-bcf5-46e4-9ca9-ce719853fc25,b58c65b2-bb9a-48e9-9c5d-e9dda9569c13,12f8a7e3-a6b4-49a8-8b9f-428be1d8201f,d99891aa-fda2-4fd4-8ba2-7eefc517dc00,8446d0c3-e379-45d9-a1cf-b0542986aab9"
+#!   FME_DOCUMENT_GUID="677898d0-3987-4646-866a-b0b4a8917279"
+#!   FME_DOCUMENT_PRIORGUID="dc6bf816-bcf5-46e4-9ca9-ce719853fc25,b58c65b2-bb9a-48e9-9c5d-e9dda9569c13,12f8a7e3-a6b4-49a8-8b9f-428be1d8201f,d99891aa-fda2-4fd4-8ba2-7eefc517dc00,8446d0c3-e379-45d9-a1cf-b0542986aab9,a9590d2f-ba13-401b-a4b8-57c7778b0765"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -30,7 +30,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.0.1.0 (20180518 - Build 18310 - WIN64)"
-#!   LAST_SAVE_DATE="2018-07-05T10:31:13"
+#!   LAST_SAVE_DATE="2018-07-20T08:46:18"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,10 +48,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="218.752 1593.77"
+#!   VIEW_POSITION="-2191.48 134.495"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="30"
+#!   ZOOM_SCALE="79"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -67,7 +67,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="geotiff_private_keys{}.type char(6) fme_dataset char(50) geotiff_tifftag_yresolution float geotiff_subdataset_description char(255) geotiff_tifftag_hostcomputer char(255) fme_feature_type char(50) geotiff_private_keys{}.value char(255) geotiff_area_or_point char(255) geotiff_tifftag_software char(255) multi_reader_keyword char(50) geotiff_subdataset_name char(255) geotiff_tifftag_copyright char(255) fme_primary_axis float geotiff_tifftag_resolutionunit decimal(1,0) geotiff_pyramid_level{}.num_rows integer geotiff_number_of_bits_per_cell decimal(1,0) geotiff_pyramid_num_levels integer geotiff_tifftag_maxsamplevalue integer multi_reader_id integer fme_fill_color char(50) fme_type char(50) geotiff_byte_order char(7) fme_rotation float multi_reader_type char(50) fme_secondary_axis float geotiff_tifftag_imagedescription char(255) fme_color char(50) geotiff_tifftag_documentname char(255) geotiff_pyramid_level{}.num_columns integer fme_text_string char(50) fme_start_angle float fme_sweep_angle float geotiff_tifftag_xresolution float fme_geometry char(50) fme_text_size float geotiff_private_keys{}.id integer geotiff_tifftag_minsamplevalue integer geotiff_compression_method char(9) geotiff_photometric_interpretation char(10) geotiff_interleaving_type char(3) multi_reader_full_id integer fme_basename char(50) geotiff_tifftag_artist char(255) geotiff_tifftag_datetime datetime geotiff_type char(255)"
+#!   EXPOSABLE_ATTRS="geotiff_number_of_bits_per_cell decimal(1,0) geotiff_tifftag_xresolution float fme_secondary_axis float fme_geometry char(50) multi_reader_full_id integer geotiff_type char(255) fme_feature_type char(50) geotiff_tifftag_yresolution float geotiff_tifftag_imagedescription char(255) geotiff_private_keys{}.id integer geotiff_subdataset_name char(255) fme_primary_axis float fme_dataset char(50) geotiff_pyramid_level{}.num_rows integer geotiff_tifftag_datetime datetime multi_reader_type char(50) geotiff_pyramid_num_levels integer fme_fill_color char(50) fme_text_string char(50) geotiff_tifftag_resolutionunit decimal(1,0) fme_basename char(50) geotiff_tifftag_minsamplevalue integer geotiff_pyramid_level{}.num_columns integer geotiff_compression_method char(9) geotiff_tifftag_artist char(255) geotiff_subdataset_description char(255) fme_start_angle float geotiff_tifftag_maxsamplevalue integer fme_text_size float geotiff_private_keys{}.value char(255) fme_sweep_angle float fme_type char(50) geotiff_private_keys{}.type char(6) multi_reader_id integer geotiff_tifftag_copyright char(255) geotiff_tifftag_software char(255) geotiff_photometric_interpretation char(10) geotiff_interleaving_type char(3) multi_reader_keyword char(50) geotiff_byte_order char(7) geotiff_tifftag_hostcomputer char(255) fme_rotation float geotiff_area_or_point char(255) fme_color char(50) geotiff_tifftag_documentname char(255)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -133,7 +133,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="geotiff_private_keys{}.type char(6) fme_dataset char(50) geotiff_tifftag_yresolution float geotiff_subdataset_description char(255) geotiff_tifftag_hostcomputer char(255) fme_feature_type char(50) geotiff_private_keys{}.value char(255) geotiff_area_or_point char(255) geotiff_tifftag_software char(255) multi_reader_keyword char(50) geotiff_subdataset_name char(255) geotiff_tifftag_copyright char(255) fme_primary_axis float geotiff_tifftag_resolutionunit decimal(1,0) geotiff_pyramid_level{}.num_rows integer geotiff_number_of_bits_per_cell decimal(1,0) geotiff_pyramid_num_levels integer geotiff_tifftag_maxsamplevalue integer multi_reader_id integer fme_fill_color char(50) fme_type char(50) geotiff_byte_order char(7) fme_rotation float multi_reader_type char(50) fme_secondary_axis float geotiff_tifftag_imagedescription char(255) fme_color char(50) geotiff_tifftag_documentname char(255) geotiff_pyramid_level{}.num_columns integer fme_text_string char(50) fme_start_angle float fme_sweep_angle float geotiff_tifftag_xresolution float fme_geometry char(50) fme_text_size float geotiff_private_keys{}.id integer geotiff_tifftag_minsamplevalue integer geotiff_compression_method char(9) geotiff_photometric_interpretation char(10) geotiff_interleaving_type char(3) multi_reader_full_id integer fme_basename char(50) geotiff_tifftag_artist char(255) geotiff_tifftag_datetime datetime geotiff_type char(255)"
+#!   EXPOSABLE_ATTRS="geotiff_number_of_bits_per_cell decimal(1,0) geotiff_tifftag_xresolution float fme_secondary_axis float fme_geometry char(50) multi_reader_full_id integer geotiff_type char(255) fme_feature_type char(50) geotiff_tifftag_yresolution float geotiff_tifftag_imagedescription char(255) geotiff_private_keys{}.id integer geotiff_subdataset_name char(255) fme_primary_axis float fme_dataset char(50) geotiff_pyramid_level{}.num_rows integer geotiff_tifftag_datetime datetime multi_reader_type char(50) geotiff_pyramid_num_levels integer fme_fill_color char(50) fme_text_string char(50) geotiff_tifftag_resolutionunit decimal(1,0) fme_basename char(50) geotiff_tifftag_minsamplevalue integer geotiff_pyramid_level{}.num_columns integer geotiff_compression_method char(9) geotiff_tifftag_artist char(255) geotiff_subdataset_description char(255) fme_start_angle float geotiff_tifftag_maxsamplevalue integer fme_text_size float geotiff_private_keys{}.value char(255) fme_sweep_angle float fme_type char(50) geotiff_private_keys{}.type char(6) multi_reader_id integer geotiff_tifftag_copyright char(255) geotiff_tifftag_software char(255) geotiff_photometric_interpretation char(10) geotiff_interleaving_type char(3) multi_reader_keyword char(50) geotiff_byte_order char(7) geotiff_tifftag_hostcomputer char(255) fme_rotation float geotiff_area_or_point char(255) fme_color char(50) geotiff_tifftag_documentname char(255)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -199,7 +199,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY} shape_dimension auto"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset char(50) SHAPE_GEOMETRY char(50) fme_sweep_angle double fme_type char(50) fme_start_angle double fme_fill_color char(50) shape_measures char(254) fme_rotation double fme_secondary_axis double fme_text_size double fme_primary_axis double fme_color char(50) fme_geometry char(50) fme_basename char(50) fme_text_string char(50) fme_feature_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_start_angle double fme_text_string char(50) fme_geometry char(50) fme_secondary_axis double fme_fill_color char(50) fme_primary_axis double fme_color char(50) fme_basename char(50) fme_type char(50) fme_text_size double fme_feature_type char(50) shape_measures char(254) SHAPE_GEOMETRY char(50) fme_dataset char(50) fme_sweep_angle double fme_rotation double"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group shape_dimension Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE shape_dimension Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,auto%2D,2d%2D&lt;space&gt;+&lt;space&gt;Measures,2dm%3D&lt;space&gt;+&lt;space&gt;Measures,3dm Output Dimension:&quot; auto "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
@@ -946,7 +946,7 @@
 #!   BOUNDING_RECT="-1989.7974322432451 -164.24443244371957 797.65588119810513 1745.496887191699"
 #!   STICKY="true"
 #!   COLOUR="0.50196078431372548,0.058823529411764705,0.58431372549019611"
-#!   CONTENTS="50 4 51 52 "
+#!   CONTENTS="52 4 51 50 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -959,7 +959,7 @@
 #!   BOUNDING_RECT="7392.1870171082655 -425.25173724088017 2358.654538926342 851.9430432399563"
 #!   STICKY="true"
 #!   COLOUR="0.82745098039215681,0.90980392156862744,0.87058823529411766"
-#!   CONTENTS="71 69 66 63 48 46 76 "
+#!   CONTENTS="71 76 69 66 63 48 46 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1681,34 +1681,6 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CenterPointReplacer"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="72"
-#!   TYPE="Inspector"
-#!   VERSION="5"
-#!   POSITION="1971.9577129108206 -900.18117043915572"
-#!   BOUNDING_RECT="1971.9577129108206 -900.18117043915572 -1 -1"
-#!   ORDER="500000000000209"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18310"
-#! >
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeKeeper_Output"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="63"
 #!   TYPE="AttributeRounder"
 #!   VERSION="3"
@@ -1874,17 +1846,6 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="73"
-#!   SOURCE_NODE="24"
-#!   TARGET_NODE="72"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -2386,12 +2347,6 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME verificacao_vizinhos_mde
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
-# -------------------------------------------------------------------------
 GEOTIFF_1_DEF GEOTIFF
 # -------------------------------------------------------------------------
 GEOTIFF_2_DEF GEOTIFF
@@ -2433,33 +2388,15 @@ FACTORY_DEF {*} OverlayFactory    FACTORY_NAME AreaOnAreaOverlayer    INPUT POLY
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE AreaOnAreaOverlayer_AREA    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_overlaps<closeparen>,Tester) > 1 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_506faff8_58c3_4ea8_b8ff_cf725eec82650_LIST_EXP ";    foreach attr [split "_nomes<opencurly><closecurly>"] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_cc9a58b3_84f1_467e_bb4f_840d49d9201c0_LIST_EXP ";    foreach attr [split "_nomes<opencurly><closecurly>"] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_506faff8_58c3_4ea8_b8ff_cf725eec82650_LIST_EXP)")         }
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT_0_rpABwRdi1ws=   OUTPUT FEATURE_TYPE AttributeKeeper_OUTPUT_1_ZImEmLS5GM8=
-# -------------------------------------------------------------------------
-
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {AttributeKeeper_Output} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME AttributeKeeper_Output_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT_1_ZImEmLS5GM8=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { AttributeKeeper_Output }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-
-FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeKeeper_Output_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_cc9a58b3_84f1_467e_bb4f_840d49d9201c0_LIST_EXP)")         }
 
 # -------------------------------------------------------------------------
 
 GlobalVariable Tiler_NUM_TO_CREATE 0
 INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory PointCloudTilingFactory]} {       puts "MACRO POINT_CLOUD_TILER_IN *";    } else {       puts "MACRO POINT_CLOUD_TILER_IN NOT_THIS_TIME";    } ]
-FACTORY_DEF * TestFactory    FACTORY_NAME Tiler_SolidSurfaceAndNullFilter    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT_0_rpABwRdi1ws=    TEST &fme_type == "fme_solid"    TEST &fme_type == "fme_surface"    TEST &fme_type == "fme_no_geom"    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE ___TOTILER___
+FACTORY_DEF * TestFactory    FACTORY_NAME Tiler_SolidSurfaceAndNullFilter    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    TEST &fme_type == "fme_solid"    TEST &fme_type == "fme_surface"    TEST &fme_type == "fme_no_geom"    BOOLEAN_OPERATOR OR    OUTPUT FAILED FEATURE_TYPE ___TOTILER___
 FACTORY_DEF * TeeFactory    FACTORY_NAME Tiler    INPUT FEATURE_TYPE ___TOTILER___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)    OUTPUT FEATURE_TYPE Tiler___PointCloudFilter___
 FACTORY_DEF * TestFactory    FACTORY_NAME Tiler_ClippeePointCloudFilter    INPUT FEATURE_TYPE Tiler___PointCloudFilter___    TEST &fme_type == "fme_point_cloud"    OUTPUT PASSED FEATURE_TYPE Tiler___PointCloudTilees___    OUTPUT FAILED FEATURE_TYPE Tiler___OtherTilees___
 FACTORY_DEF $(POINT_CLOUD_TILER_IN) PointCloudTilingFactory    FACTORY_NAME Tiler_PointCloudTiler    INPUT FEATURE_TYPE Tiler___PointCloudTilees___    TILE_WIDTH "100"    TILE_HEIGHT "100"    TILE_COLUMN_ATTRIBUTE "_column"    TILE_ROW_ATTRIBUTE "_row"    REJECT_INVALID_GEOM Yes    OUTPUT TILES FEATURE_TYPE Tiler_TILED          @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
@@ -2517,17 +2454,17 @@ FACTORY_DEF * TestFactory    FACTORY_NAME CoordinateExtractor_FAILED_PASSED    I
 
 # -------------------------------------------------------------------------
 
-INCLUDE [    set macroLine "MACRO AttributeKeeper_2_dcc1b13d_ab4a_4c02_90bb_6881f283cd9f0_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+INCLUDE [    set macroLine "MACRO AttributeKeeper_2_0ab33f43_879e_4c29_b151_a14cf96d38a50_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE CoordinateExtractor_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,_x,_y,cota,fme_basename,_point_id,fme_pcre_match,"^fme_$(AttributeKeeper_2_dcc1b13d_ab4a_4c02_90bb_6881f283cd9f0_LIST_EXP)")         }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_2    INPUT  FEATURE_TYPE CoordinateExtractor_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_2_OUTPUT        @KeepAttributes(fme_encoded,_x,_y,cota,fme_basename,_point_id,fme_pcre_match,"^fme_$(AttributeKeeper_2_0ab33f43_879e_4c29_b151_a14cf96d38a50_LIST_EXP)")         }
 
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO __StatisticsCalculator_b4888572_6905_44e6_ad9b_7337fa44de2e0_GROUP_BY
-MACRO __StatisticsCalculator_b4888572_6905_44e6_ad9b_7337fa44de2e0_GROUP_BY _x _y _point_id
+DEFAULT_MACRO __StatisticsCalculator_e97bfbd7_e2bb_44d0_9307_cb424d18e0040_GROUP_BY
+MACRO __StatisticsCalculator_e97bfbd7_e2bb_44d0_9307_cb424d18e0040_GROUP_BY _x _y _point_id
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    'StatisticsCalculator',{     'GROUP_BY_MACRO':'__StatisticsCalculator_b4888572_6905_44e6_ad9b_7337fa44de2e0_GROUP_BY',     'GROUP_BY':'_x _y _point_id',     'STATS_ATTRS':'cota',     'RANGE_ATTR':'_range',     'COMPUTE_HISTOGRAM':'YES',     'HISTO_ATTR':'test',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    'StatisticsCalculator',{     'GROUP_BY_MACRO':'__StatisticsCalculator_e97bfbd7_e2bb_44d0_9307_cb424d18e0040_GROUP_BY',     'GROUP_BY':'_x _y _point_id',     'STATS_ATTRS':'cota',     'RANGE_ATTR':'_range',     'COMPUTE_HISTOGRAM':'YES',     'HISTO_ATTR':'test',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE AttributeKeeper_2_OUTPUT    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__
 FACTORY_DEF * SortFactory    FACTORY_NAME StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__
@@ -2563,9 +2500,5 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
-FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
 # -------------------------------------------------------------------------
 ESRISHAPE_1_DEF GEOTIFF   SHAPE_GEOMETRY               shape_point   shape_dimension              2d   observacao                   char(254)
