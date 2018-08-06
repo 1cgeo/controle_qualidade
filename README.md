@@ -33,13 +33,15 @@ A ferramenta está disponível em [Verificação da Qualidade da Hidrografia](ht
 * (4.3.3) Feições da classe *Massa_Dagua* não devem conter feições da classe *Trecho_Drenagem*
 * (4.3.4) Feições da classe *Trecho_Massa_Dagua* devem conter feições da classe *Trecho_Drenagem*
 * (4.3.5) Feições das classes *Massa_Dagua* e *Trecho_Massa_Dagua* que intersectam uma feições da classe *Barragem* devem possuir tipo *Represa/Açude*
-* (4.3.6) Feições da classe *Barragem* devem intersectar elementos das classes *Massa_Dagua* e *Trecho_Massa_Dagua*
+* (4.3.6) Feições da classe *Barragem* devem intersectar feições das classes *Massa_Dagua* e *Trecho_Massa_Dagua*
+* (4.3.7) Feições da classe *Queda_Dagua* com geometria Linha devem intersectar feições da classe *Trecho_Massa_Dagua*. Todas as feições da classe *Queda_Dagua* devem intersectar uma única feição da classe *Trecho_Drenagem*.
+* (4.3.8) Feições da classe *Corredeira* com geometria Poligono devem intersectar feições da classe *Trecho_Massa_Dagua*. Todas as feições da classe *Corredeira* devem intersectar uma única feição da classe *Trecho_Drenagem*.
 
 ### Medida existência de desnível incompatível
 * (4.4.1) Feições da classe *Trecho_Drenagem* que possuirem um desnível (diferença entre coordenadas Z sucessivas) superioes a 10 metros devem conter feições da classe *Queda_Dagua*
 
 ### Medida existência de itens que violam regras da lei do modelado
-* (4.5.1) Feições da classe *Trecho_Drenagem* não devem intersectar mais de uma vez um único elemento da classe *Curva_Nivel*
+* (4.5.1) Feições da classe *Trecho_Drenagem* não devem intersectar mais de uma vez uma única feição da classe *Curva_Nivel*
 * (4.5.2) Feições da classe *Trecho_Drenagem* devem possuir sua coordenada Z de forma decrescente
 * (4.5.3) Feições da classe *Massa_Dagua* devem apresentar coordenada Z constante
 
