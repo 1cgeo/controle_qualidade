@@ -1,5 +1,5 @@
 # Conjunto de Ferramentas para Controle de Qualidade
-Conjunto de ferramentas desenvolvidas no software [FME Workbench 2018](https://www.safe.com/) para executar o controle de qualidade de dados geoespaciais.
+Conjunto de ferramentas desenvolvidas no software [FME Workbench 2018.1](https://www.safe.com/) para executar o controle de qualidade de dados geoespaciais.
 
 Tais ferramentas tem a finalidade atender as obrigações do 1º Centro de Geoinformação (1ºCGEO) previstas na alínea "b", do item IV da CLÁUSULA TERCEIRA do Termo de Convênio Nº384/2017 FPE/RS e 17-113-00/EME, firmado entre o Exército Brasileiro e o Estado do Rio Grande do Sul, no que diz respeito a avaliação da qualidade dos produtos geoespaciais elaborados dentro do escopo do Contrato de Serviços de Consultoria PROREDES BIRD/RS (Nº 05/2017), firmado entre a Secretaria de Planejamento, Governança e Gestão (SPGG/RS) e a empresa Hiparc Geotecnologia, Projetos e Aerolevantamentos Ltda.
 
@@ -109,3 +109,8 @@ A ferramenta está disponível em [Verificação da aderência com hidrografia](
 Esta ferramenta visa gerar o raster de diferença entre MDS e MDT.
 
 A ferramenta está disponível em [Geração de raster de diferença entre MDS e MDT](https://github.com/1cgeo/controle_qualidade/blob/master/gera_diferenca_MDS_MDT.fmw).
+
+## Verificação da qualidade de MDS e MDT
+Esta ferramenta visa verificar se existem declividades acima da tolerância, se os vetores de Massa_Dagua e Trecho_Massa_Dagua tem cota coerente com o modelo, e se existem no data inválidos.
+
+A ferramenta está disponível em [Verificação da qualidade de MDS e MDT](https://github.com/1cgeo/controle_qualidade/blob/master/verificacao_qualidade_mds_mdt.fmw).
