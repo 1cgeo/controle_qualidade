@@ -6,14 +6,14 @@
 #              --SourceDataset_ESRISHAPE ""
 #              --SourceDataset_ESRISHAPE_3 ""
 #              --DestDataset_ESRISHAPE ""
-#              --decliv ""
+#              --decliv "80"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
 #!   BEGIN_TCL=""
 #!   CATEGORY=""
 #!   DESCRIPTION=""
-#!   DESTINATION="VISUALIZER"
+#!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
 #!   DOC_EXTENTS="8798.78 3277.57"
 #!   DOC_TOP_LEFT="-2743.88 -2266.81"
@@ -21,8 +21,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="78b6d843-decd-4add-9363-114961d965a4"
-#!   FME_DOCUMENT_PRIORGUID="46b20c09-fbb9-4f74-8e5c-1ba26c31288b"
+#!   FME_DOCUMENT_GUID="bce453e4-e684-4352-a9df-ae358da3d94e"
+#!   FME_DOCUMENT_PRIORGUID="46b20c09-fbb9-4f74-8e5c-1ba26c31288b,78b6d843-decd-4add-9363-114961d965a4"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -31,7 +31,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - WIN64)"
-#!   LAST_SAVE_DATE="2018-10-03T12:01:04"
+#!   LAST_SAVE_DATE="2018-10-03T17:12:11"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -49,7 +49,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-3735.39 917.978"
+#!   VIEW_POSITION="595.709 751.961"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="64"
@@ -68,7 +68,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_sweep_angle float fme_color char(50) geotiff_subdataset_name char(255) multi_reader_type char(50) geotiff_byte_order char(7) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_tifftag_hostcomputer char(255) fme_text_size float geotiff_private_keys{}.id integer fme_secondary_axis float geotiff_tifftag_imagedescription char(255) geotiff_number_of_bits_per_cell decimal(1,0) geotiff_interleaving_type char(3) geotiff_pyramid_level{}.num_rows integer multi_reader_keyword char(50) fme_geometry char(50) fme_text_string char(50) fme_rotation float geotiff_tifftag_software char(255) geotiff_photometric_interpretation char(10) fme_primary_axis float geotiff_private_keys{}.type char(6) geotiff_pyramid_num_levels integer geotiff_tifftag_datetime datetime geotiff_tifftag_copyright char(255) fme_basename char(50) fme_type char(50) geotiff_tifftag_minsamplevalue integer geotiff_type char(255) fme_start_angle float geotiff_area_or_point char(255) geotiff_tifftag_xresolution float geotiff_tifftag_yresolution float multi_reader_id integer geotiff_tifftag_maxsamplevalue integer geotiff_tifftag_documentname char(255) geotiff_compression_method char(9) geotiff_private_keys{}.value char(255) fme_fill_color char(50) fme_feature_type char(50) fme_dataset char(50) geotiff_subdataset_description char(255) geotiff_pyramid_level{}.num_columns integer geotiff_tifftag_artist char(255) multi_reader_full_id integer"
+#!   EXPOSABLE_ATTRS="fme_geometry char(50) multi_reader_keyword char(50) geotiff_tifftag_xresolution float geotiff_private_keys{}.value char(255) geotiff_pyramid_level{}.num_rows integer geotiff_tifftag_yresolution float geotiff_byte_order char(7) geotiff_tifftag_artist char(255) geotiff_tifftag_datetime datetime geotiff_tifftag_copyright char(255) fme_start_angle float geotiff_private_keys{}.type char(6) geotiff_tifftag_documentname char(255) fme_text_size float geotiff_tifftag_software char(255) multi_reader_full_id integer fme_type char(50) geotiff_tifftag_minsamplevalue integer geotiff_private_keys{}.id integer geotiff_pyramid_level{}.num_columns integer geotiff_photometric_interpretation char(10) geotiff_pyramid_num_levels integer geotiff_type char(255) fme_feature_type char(50) fme_basename char(50) geotiff_subdataset_description char(255) geotiff_tifftag_imagedescription char(255) fme_text_string char(50) geotiff_subdataset_name char(255) multi_reader_type char(50) geotiff_tifftag_maxsamplevalue integer multi_reader_id integer geotiff_number_of_bits_per_cell decimal(1,0) fme_dataset char(50) geotiff_compression_method char(9) fme_color char(50) fme_primary_axis float fme_rotation float geotiff_interleaving_type char(3) fme_secondary_axis float fme_fill_color char(50) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_tifftag_hostcomputer char(255) geotiff_area_or_point char(255) fme_sweep_angle float"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -134,7 +134,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_color char(50) fme_text_string char(50) SHAPE_GEOMETRY char(50) shape_measures char(254) multi_reader_full_id long fme_secondary_axis double fme_basename char(50) shape_geometry_error{} char(254) fme_type char(50) multi_reader_id long multi_reader_type char(50) multi_reader_keyword char(50) fme_sweep_angle double fme_rotation double fme_geometry char(50) fme_start_angle double fme_dataset char(50) fme_feature_type char(50) fme_fill_color char(50) fme_text_size double fme_primary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_keyword char(50) fme_color char(50) multi_reader_id long fme_type char(50) fme_basename char(50) fme_dataset char(50) fme_text_string char(50) SHAPE_GEOMETRY char(50) shape_measures char(254) fme_rotation double fme_text_size double multi_reader_full_id long fme_geometry char(50) fme_secondary_axis double fme_feature_type char(50) fme_fill_color char(50) fme_primary_axis double shape_geometry_error{} char(254) fme_start_angle double fme_sweep_angle double multi_reader_type char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -192,7 +192,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_color char(50) fme_text_string char(50) SHAPE_GEOMETRY char(50) shape_measures char(254) multi_reader_full_id long fme_secondary_axis double fme_basename char(50) shape_geometry_error{} char(254) fme_type char(50) multi_reader_id long multi_reader_type char(50) multi_reader_keyword char(50) fme_sweep_angle double fme_rotation double fme_geometry char(50) fme_start_angle double fme_dataset char(50) fme_feature_type char(50) fme_fill_color char(50) fme_text_size double fme_primary_axis double"
+#!   EXPOSABLE_ATTRS="multi_reader_keyword char(50) fme_color char(50) multi_reader_id long fme_type char(50) fme_basename char(50) fme_dataset char(50) fme_text_string char(50) SHAPE_GEOMETRY char(50) shape_measures char(254) fme_rotation double fme_text_size double multi_reader_full_id long fme_geometry char(50) fme_secondary_axis double fme_feature_type char(50) fme_fill_color char(50) fme_primary_axis double shape_geometry_error{} char(254) fme_start_angle double fme_sweep_angle double multi_reader_type char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -250,7 +250,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY} shape_dimension auto"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type char(50) fme_sweep_angle double fme_text_size double fme_feature_type char(50) fme_start_angle double fme_basename char(50) shape_measures char(254) fme_dataset char(50) fme_primary_axis double fme_secondary_axis double fme_color char(50) fme_rotation double fme_geometry char(50) fme_fill_color char(50) SHAPE_GEOMETRY char(50) fme_text_string char(50)"
+#!   EXPOSABLE_ATTRS="fme_feature_type char(50) fme_basename char(50) SHAPE_GEOMETRY char(50) fme_sweep_angle double fme_color char(50) fme_text_size double shape_measures char(254) fme_fill_color char(50) fme_rotation double fme_dataset char(50) fme_type char(50) fme_primary_axis double fme_geometry char(50) fme_start_angle double fme_secondary_axis double fme_text_string char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group shape_dimension Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE shape_dimension Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,auto%2D,2d%2D&lt;space&gt;+&lt;space&gt;Measures,2dm%3D&lt;space&gt;+&lt;space&gt;Measures,3dm Output Dimension:&quot; auto "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
@@ -294,6 +294,144 @@
 #! </DATASET>
 #! </DATASETS>
 #! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="decimal(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="largeint"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="decimal(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="largeint"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="integer"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GEOTIFF"
+#! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="char(width)"
@@ -479,144 +617,6 @@
 #!   FORMAT_TYPE="number(width,decimal)"
 #!   FME_TYPE="fme_decimal(width,decimal)"
 #!   FORMAT="ESRISHAPE"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(254)"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="datetime"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="time"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="decimal(width,decimal)"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="integer"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="largeint"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="decimal(20,0)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="largeint"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="logical"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="integer"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="smallint"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="GEOTIFF"
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
@@ -808,6 +808,102 @@
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geotiff_raster"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geotiff_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geotiff_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="geotiff_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GEOTIFF"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="shape_point"
 #!   FME_TYPE="fme_point"
 #!   FORMAT="ESRISHAPE"
@@ -907,102 +1003,6 @@
 #!   FORMAT_TYPE="shape_null"
 #!   FME_TYPE="fme_collection"
 #!   FORMAT="ESRISHAPE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geotiff_raster"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geotiff_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geotiff_none"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="GEOTIFF"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="geotiff_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="GEOTIFF"
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
@@ -1306,7 +1306,7 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI LOOKUP_CHOICE decliv MDT,80%MDS,85 Tipo de produto:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="80"
 #!   IS_STAND_ALONE="true"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -1346,7 +1346,7 @@
 #! <BOOKMARK
 #!   IDENTIFIER="57"
 #!   NAME="Dados de entrada"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-1900.717719497944 -36.765073533088241"
 #!   ORDER="500000000000211"
 #!   BOTTOM_RIGHT="-1222.0271456445905 -2266.8137129132483"
@@ -1359,14 +1359,14 @@
 #! <BOOKMARK
 #!   IDENTIFIER="59"
 #!   NAME="Saída"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="4035.1280705789513 820.3207032070319"
 #!   ORDER="500000000000213"
 #!   BOTTOM_RIGHT="6054.9014759589854 -492.36221610710243"
 #!   BOUNDING_RECT="4035.1280705789513 820.3207032070319 2019.7734053800341 1312.6829193141343"
 #!   STICKY="true"
 #!   COLOUR="0.98039215686274506,0.67843137254901964,0.98039215686274506"
-#!   CONTENTS="68 69 29 82 37 33 70 28 31 83 "
+#!   CONTENTS="83 33 82 28 37 85 70 68 31 29 69 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1388,14 +1388,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1421,14 +1421,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1482,14 +1482,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1529,14 +1529,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1571,14 +1571,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1613,14 +1613,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1661,14 +1661,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1690,14 +1690,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1739,14 +1739,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1791,14 +1791,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1821,14 +1821,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1870,14 +1870,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1923,14 +1923,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1954,14 +1954,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2004,14 +2004,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2046,7 +2046,7 @@
 #!   POSITION="3161.5015652117313 -863.94749841632927"
 #!   BOUNDING_RECT="3161.5015652117313 -863.94749841632927 -1 -1"
 #!   ORDER="500000000000016"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18547"
 #! >
@@ -2057,14 +2057,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2087,14 +2087,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2135,14 +2135,14 @@
 #!     <XFORM_ATTR ATTR_NAME="objectid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="elevation" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="layer" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="regime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_star" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_stle" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Leng" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="shape_Area" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="tipotrecho" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_area" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="tipomassa" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_column" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_row" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_hierarchy_child_id_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2637,7 +2637,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_label" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; observacao SET_TO &lt;at&gt;Evaluate&lt;openparen&gt;Declividade&lt;space&gt;acima&lt;space&gt;da&lt;space&gt;toler&lt;u00e2&gt;ncia&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; observacao SET_TO Declividade&lt;space&gt;acima&lt;space&gt;da&lt;space&gt;toler&lt;u00e2&gt;ncia"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2666,7 +2666,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="EXPRESSION_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="EXPRESSION_LIST" PARM_VALUE="INTERPRETATION_LIST &quot;PRESERVE&quot; EXPRESSION_LIST &quot;if&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;=-9999&lt;comma&gt;1&lt;comma&gt;0&lt;closeparen&gt;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="EXPRESSION_LIST" PARM_VALUE="INTERPRETATION_LIST &quot;PRESERVE&quot; EXPRESSION_LIST &quot;if&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;==-9999&lt;comma&gt;1&lt;comma&gt;0&lt;closeparen&gt;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="One Raster"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -2726,7 +2726,7 @@
 #!   POSITION="1831.6756863242663 950.75191923158604"
 #!   BOUNDING_RECT="1831.6756863242663 950.75191923158604 -1 -1"
 #!   ORDER="500000000000217"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18547"
 #! >
@@ -3217,7 +3217,7 @@ DEFAULT_MACRO SourceDataset_ESRISHAPE_3
 GUI MULTIFILE SourceDataset_ESRISHAPE_3 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Vetor de Trecho Massa Dágua (shp):
 DEFAULT_MACRO DestDataset_ESRISHAPE 
 GUI DIRNAME DestDataset_ESRISHAPE Pasta de destino (shapefile):
-DEFAULT_MACRO decliv 
+DEFAULT_MACRO decliv 80
 GUI LOOKUP_CHOICE decliv MDT,80%MDS,85 Tipo de produto:
 INCLUDE [ if {{$(SourceDataset_GEOTIFF)} == {}} { puts_real {Parameter 'SourceDataset_GEOTIFF' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_ESRISHAPE)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE' must be given a value.}; exit 1; }; ]
@@ -3673,13 +3673,6 @@ ESRISHAPE_3_DATASET "$(DestDataset_ESRISHAPE_3)"
 #! END_WB_HEADER
 #! END_HEADER
 
-WRITER_TYPE NULL
-WRITER_KEYWORD WBROUTER_OUT
-WBROUTER_OUT_DATASET null
-
-LOG_END_BANNER 
-LOG_END_BANNER *** All writer output has been redirected to the Data Inspector ***
-LOG_END_BANNER 
 LOG_FILENAME "$(FME_MF_DIR)verificacao_qualidade_mds_mdt.log"
 LOG_APPEND NO
 LOG_TIMINGS YES
@@ -3696,7 +3689,7 @@ DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_2 ESRISHAPE_2
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_3 ESRISHAPE_3
 # -------------------------------------------------------------------------
 
-GEOTIFF_1_READER_META_ATTRIBUTES fme_feature_type fme_basename
+GEOTIFF_1_READER_META_ATTRIBUTES fme_basename fme_feature_type
 
 # -------------------------------------------------------------------------
 
@@ -3715,12 +3708,6 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 MACRO WORKSPACE_NAME verificacao_qualidade_mds_mdt
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
-
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
-# -------------------------------------------------------------------------
 GEOTIFF_1_DEF GEOTIFF
 # -------------------------------------------------------------------------
 ESRISHAPE_1_DEF HID_Massa_Dagua_A   SHAPE_GEOMETRY               shape_polygon   objectid                     long   elevation                    double   layer                        char(254)   tipomassa                    double   regime                       double   shape_star                   double   shape_stle                   double   shape_Leng                   double   shape_Area                   double
@@ -3734,13 +3721,13 @@ ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::HID_Massa_Dagua_A EXACT HID_Massa_Dagua_A
 ESRISHAPE_2_MERGE_DEF ESRISHAPE_2::HID_Trecho_Massa_Dagua_A EXACT HID_Trecho_Massa_Dagua_A
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "HID_Trecho_Massa_Dagua_A (ESRISHAPE_2) Splitter"    INPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A    OUTPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_2
+FACTORY_DEF * TeeFactory    FACTORY_NAME "HID_Massa_Dagua_A (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE HID_Massa_Dagua_A    OUTPUT FEATURE_TYPE HID_Massa_Dagua_A_ESRISHAPE_1
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "GEOTIFF (GEOTIFF_1) Splitter"    INPUT FEATURE_TYPE GEOTIFF    OUTPUT FEATURE_TYPE GEOTIFF_GEOTIFF_1_0_6nE420AfkmM=    OUTPUT FEATURE_TYPE GEOTIFF_GEOTIFF_1_1_07c+drRwOJ0=    OUTPUT FEATURE_TYPE GEOTIFF_GEOTIFF_1_2_x+PgS/gsAZY=
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "HID_Massa_Dagua_A (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE HID_Massa_Dagua_A    OUTPUT FEATURE_TYPE HID_Massa_Dagua_A_ESRISHAPE_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "HID_Trecho_Massa_Dagua_A (ESRISHAPE_2) Splitter"    INPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A    OUTPUT FEATURE_TYPE HID_Trecho_Massa_Dagua_A_ESRISHAPE_2
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 INCLUDE [          if { ({Plane Area} == {Sloped Area}) } {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,ALLOW_NULLS,SLOPED_AREAS,"1")};          } else {             puts {MACRO AreaCalculator_func @Area(REJECTABLE,ALLOW_NULLS,"1")};          }          ]
@@ -3773,7 +3760,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME AreaCalculator_2_Rejector    INPUT FEA
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_3    INPUT  FEATURE_TYPE AreaCalculator_2_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_area<closeparen>,Tester_3) > 2500 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_3_PASSED
 # -------------------------------------------------------------------------
-FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator    INPUT  FEATURE_TYPE HID_Massa_Dagua_A_ESRISHAPE_1    INPUT  FEATURE_TYPE Tester_2_FAILED    INPUT  FEATURE_TYPE Tester_3_PASSED    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT LINE FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT POLYGON FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT DONUT FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT AGGREGATE FEATURE_TYPE Deaggregator_DEAGGREGATED
+FACTORY_DEF * DeaggregateFactory    FACTORY_NAME Deaggregator    INPUT  FEATURE_TYPE HID_Massa_Dagua_A_ESRISHAPE_1    INPUT  FEATURE_TYPE Tester_3_PASSED    INPUT  FEATURE_TYPE Tester_2_FAILED    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    RECURSIVE No    SPLIT_COMPOSITES No    INSTANTIATE_GEOMETRY_INSTANCES_NEW No    SET_FME_TYPE Yes    PART_NUMBER_FIELD _part_number    GEOMETRY_NAME_FIELD _geometry_name    ID_ATTR _hierarchy_id    PARENT_ID_ATTR _hierarchy_parent_id    CHILD_ID_ATTR _hierarchy_child_id_list    COPY_ATTR EVERY_NODE    OUTPUT POINT FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT LINE FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT POLYGON FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT DONUT FEATURE_TYPE Deaggregator_DEAGGREGATED    OUTPUT AGGREGATE FEATURE_TYPE Deaggregator_DEAGGREGATED
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    INPUT  FEATURE_TYPE Deaggregator_DEAGGREGATED    TEST "All Coordinates" == "All Coordinates"    OUTPUT PASSED FEATURE_TYPE CoordinateExtractor_PASSED    OUTPUT FAILED FEATURE_TYPE CoordinateExtractor_FAILED
 FACTORY_DEF * TestFactory    FACTORY_NAME CoordinateExtractor_PASSED    INPUT FEATURE_TYPE CoordinateExtractor_PASSED    TEST @Dimension() == 2    OUTPUT PASSED FEATURE_TYPE CoordinateExtractor_OUTPUT         @ZValue("")         @Coordinate(x,ALL,"_indices"{}.x,FLATTEN_AGGREGATE,YES)         @Coordinate(y,ALL,"_indices"{}.y,FLATTEN_AGGREGATE,NO)         @Coordinate(z,ALL,"_indices"{}.z,FLATTEN_AGGREGATE,NO)         @Dimension(2)    OUTPUT FAILED FEATURE_TYPE CoordinateExtractor_OUTPUT         @Coordinate(x,ALL,"_indices"{}.x,FLATTEN_AGGREGATE,YES)         @Coordinate(y,ALL,"_indices"{}.y,FLATTEN_AGGREGATE,NO)         @Coordinate(z,ALL,"_indices"{}.z,FLATTEN_AGGREGATE,NO)
@@ -3794,7 +3781,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME RasterBandNodataSetter_Rejector    INP
 FACTORY_DEF * TeeFactory    FACTORY_NAME RasterBandNodataRemover    INPUT  FEATURE_TYPE RasterBandNodataSetter_OUTPUT    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)       @RasterNodata(REJECTABLE, REMOVE)
 FACTORY_DEF * TestFactory    FACTORY_NAME RasterBandNodataRemover_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT FAILED FEATURE_TYPE RasterBandNodataRemover_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator_3    INPUT A FEATURE_TYPE RasterBandNodataRemover_OUTPUT    INTERPRETATION_LIST "PRESERVE" EXPRESSION_LIST "if<openparen>A<openbracket>0<closebracket>=-9999<comma>1<comma>0<closeparen>"    FORCE_FLOAT_DIVISION yes    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_3_RESULT
+FACTORY_DEF {*} RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator_3    INPUT A FEATURE_TYPE RasterBandNodataRemover_OUTPUT    INTERPRETATION_LIST "PRESERVE" EXPRESSION_LIST "if<openparen>A<openbracket>0<closebracket>==-9999<comma>1<comma>0<closeparen>"    FORCE_FLOAT_DIVISION yes    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_3_RESULT
 # -------------------------------------------------------------------------
 FACTORY_DEF * RasterSegmentationFactory    FACTORY_NAME RasterToPolygonCoercer_3    INPUT  FEATURE_TYPE RasterExpressionEvaluator_3_RESULT    POLYGON_MODE UNIQUE    EXTRACT_NODATA No    PRESERVE_ATTRIBUTES YES    POLYGON_LABEL_ATTRIBUTE "_label"    REJECT_INVALID_FEATURES YES    OUTPUT POLYGONS FEATURE_TYPE RasterToPolygonCoercer_3_POLYGONS
 # -------------------------------------------------------------------------
@@ -3812,7 +3799,7 @@ FACTORY_DEF {*} RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluato
 # -------------------------------------------------------------------------
 FACTORY_DEF * RasterSegmentationFactory    FACTORY_NAME RasterToPolygonCoercer_2    INPUT  FEATURE_TYPE RasterExpressionEvaluator_2_RESULT    POLYGON_MODE UNIQUE    EXTRACT_NODATA No    PRESERVE_ATTRIBUTES YES    POLYGON_LABEL_ATTRIBUTE "_label"    REJECT_INVALID_FEATURES YES    OUTPUT POLYGONS FEATURE_TYPE RasterToPolygonCoercer_2_POLYGONS
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE RasterToPolygonCoercer_2_POLYGONS    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "<at>Evaluate<openparen>Declividade<space>acima<space>da<space>toler<u00e2>ncia<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_4    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE RasterToPolygonCoercer_2_POLYGONS    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "Declividade<space>acima<space>da<space>toler<u00e2>ncia" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_4_OUTPUT
 # -------------------------------------------------------------------------
 INCLUDE [    if {($(FME_BUILD_NUM) < 5669) || [FME_ComponentIsLicensed -factory RasterClippingFactory]} {       puts "MACRO RASTER_CLIPPER_IN *";    } else {       puts "MACRO RASTER_CLIPPER_IN NOT_THIS_TIME";    } ]
 # The dummy input feature type Clipper___ClipperMakeSureWeDontGetAllFeatures___
@@ -3846,60 +3833,14 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRounder_AttributeRounder    IN
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_3    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeRounder_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "M<u00e9>dia<space>de<space>valores<space>do<space><at>Value<openparen>fme_basename<closeparen><space>possui<space>diferen<u00e7>a<space>de<space><at>Value<openparen>diff<closeparen><space>em<space>rela<u00e7><u00e3>o<space>a<space>m<u00e9>dia<space>de<space>valores<space>Z<space>de<space><at>Value<openparen>layer<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_3_OUTPUT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>GEOTIFF<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>GEOTIFF00<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_5_OUTPUT TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>GEOTIFF0000<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_3_OUTPUT TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>GEOTIFF<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>diff_<lt>at<gt>Value<lt>openparen<gt>fme_basename<lt>closeparen<gt><comma>GEOTIFF<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_4_OUTPUT TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>GEOTIFF00<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>decliv_<lt>at<gt>Value<lt>openparen<gt>fme_basename<lt>closeparen<gt><comma>GEOTIFF00<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_5_OUTPUT TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>GEOTIFF0000<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>no_data_<lt>at<gt>Value<lt>openparen<gt>fme_basename<lt>closeparen<gt><comma>GEOTIFF0000<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {GEOTIFF} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME GEOTIFF_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE GEOTIFF    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY { @EvaluateExpression(FDIV,STRING,diff_<at>Value<openparen>fme_basename<closeparen>,GEOTIFF) }    GROUP_ATTRIBUTE_PREFIX { GEOTIFF }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME GEOTIFF_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA observacao,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-FACTORY_DEF * TeeFactory   FACTORY_NAME "GEOTIFF Output Nuker"   INPUT FEATURE_TYPE GEOTIFF
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {GEOTIFF00} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME GEOTIFF00_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE GEOTIFF00    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY { @EvaluateExpression(FDIV,STRING,decliv_<at>Value<openparen>fme_basename<closeparen>,GEOTIFF00) }    GROUP_ATTRIBUTE_PREFIX { GEOTIFF00 }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME GEOTIFF00_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA observacao,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-FACTORY_DEF * TeeFactory   FACTORY_NAME "GEOTIFF00 Output Nuker"   INPUT FEATURE_TYPE GEOTIFF00
-# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
-DEFAULT_MACRO WORKSPACE_TEMP_DIR
-INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {GEOTIFF0000} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
-FACTORY_DEF {*} InspectorFactory    FACTORY_NAME GEOTIFF0000_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE GEOTIFF0000    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY { @EvaluateExpression(FDIV,STRING,no_data_<at>Value<openparen>fme_basename<closeparen>,GEOTIFF0000) }    GROUP_ATTRIBUTE_PREFIX { GEOTIFF0000 }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
-# Now route all the features into the recorder, changing their
-# feature type to the transformer name so that they view nicely
-DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
-DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
-# [PR#45549] The Data Inspector will limit the maximum number of features
-# it reads on WIN32, so we will correspondingly limit the number of
-# features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME GEOTIFF0000_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA observacao,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-FACTORY_DEF * TeeFactory   FACTORY_NAME "GEOTIFF0000 Output Nuker"   INPUT FEATURE_TYPE GEOTIFF0000
 # -------------------------------------------------------------------------
-
-FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
-FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__
+ESRISHAPE_3_DEF GEOTIFF0000   SHAPE_GEOMETRY               shape_polygon   shape_dimension              2d   observacao                   char(255)
 # -------------------------------------------------------------------------
 ESRISHAPE_3_DEF GEOTIFF00   SHAPE_GEOMETRY               shape_polygon   shape_dimension              2d   observacao                   char(255)
 # -------------------------------------------------------------------------
 ESRISHAPE_3_DEF GEOTIFF   SHAPE_GEOMETRY               shape_polygon   shape_dimension              2d   observacao                   char(255)
-# -------------------------------------------------------------------------
-ESRISHAPE_3_DEF GEOTIFF0000   SHAPE_GEOMETRY               shape_polygon   shape_dimension              2d   observacao                   char(255)
-WBROUTER_OUT_DEF GEOTIFF
-WBROUTER_OUT_DEF GEOTIFF00
-WBROUTER_OUT_DEF GEOTIFF0000
