@@ -114,3 +114,9 @@ A ferramenta está disponível em [Geração de raster de diferença entre MDS e
 Esta ferramenta visa verificar se existem declividades acima da tolerância, se os vetores de Massa_Dagua e Trecho_Massa_Dagua tem cota coerente com o modelo, e se existem no data inválidos.
 
 A ferramenta está disponível em [Verificação da qualidade de MDS e MDT](https://github.com/1cgeo/controle_qualidade/blob/master/verificacao_qualidade_mds_mdt.fmw).
+
+
+## Relatório propriedades imagens
+Esta ferramenta gera um relatório em CSV com as propriedades das imagens digitais de alta resolução como tamanho do pixel, número de bandas, resolução radiométrica.
+
+A ferramenta está disponível em [Relatório Propriedades Imagens](https://github.com/1cgeo/controle_qualidade/blob/master/relatorio_propriedades_imagens.fmw).
