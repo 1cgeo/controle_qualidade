@@ -1,11 +1,11 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" E:\DINIZ\3_Desenvolvimento\controle_qualidade\verifica_diferenca_MDS_MDT.fmw
-#              --SourceDataset_GEOTIFF """"""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-4-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-4-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2968-4-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2968-4-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-3-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-3-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2985-2-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2985-2-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-1-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-1-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-2-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-2-NO.tif""""""
-#              --SourceDataset_GEOTIFF_3 """"""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-4-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-4-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2968-4-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2968-4-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-SE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-3-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-3-SO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2985-2-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2985-2-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-1-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-1-NO.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-2-NE.tif"" ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-2-NO.tif""""""
-#              --DestDataset_GEOTIFF "C:\Users\diniz.1CGEO\Downloads\diff"
-#              --DestDataset_ESRISHAPE "C:\Users\diniz.1CGEO\Downloads\diff"
+#        "C:\Program Files\FME\fme.exe" D:\1_Desenvolvimento\controle_qualidade\verifica_diferenca_MDS_MDT.fmw
+#              --SourceDataset_GEOTIFF ""
+#              --SourceDataset_GEOTIFF_3 ""
+#              --DestDataset_GEOTIFF ""
+#              --DestDataset_ESRISHAPE ""
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -19,9 +19,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="996425b7-da10-44cd-801c-6c10addcb5f1"
-#!   FME_DOCUMENT_PRIORGUID="1d85d3e6-8e5c-4b94-90f8-cd2d604e2bfb"
+#!   FME_BUILD_NUM="18586"
+#!   FME_DOCUMENT_GUID="5e05cef4-a6bc-47e1-ac62-e2f1d5a4f2a7"
+#!   FME_DOCUMENT_PRIORGUID="1d85d3e6-8e5c-4b94-90f8-cd2d604e2bfb,996425b7-da10-44cd-801c-6c10addcb5f1,59af696d-4a2b-442e-a08a-81e4cc1bfe18,ed059f4f-2271-40a8-9d00-48a97c4ce86e"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -29,8 +29,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - WIN64)"
-#!   LAST_SAVE_DATE="2019-02-28T11:49:07"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.1.2 (20190121 - Build 18586 - WIN64)"
+#!   LAST_SAVE_DATE="2019-03-02T19:29:46"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,7 +48,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="1309.39 -418.754"
+#!   VIEW_POSITION="1275.01 217.502"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -67,7 +67,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="geotiff_number_of_bits_per_cell decimal(1,0) geotiff_area_or_point char(255) fme_secondary_axis float geotiff_compression_method char(9) fme_rotation float geotiff_private_keys{}.type char(6) geotiff_tifftag_artist char(255) fme_type char(50) geotiff_type char(255) fme_start_angle float geotiff_tifftag_software char(255) fme_basename char(50) fme_text_string char(50) geotiff_private_keys{}.value char(255) fme_color char(50) geotiff_tifftag_minsamplevalue integer geotiff_tifftag_maxsamplevalue integer geotiff_tifftag_copyright char(255) multi_reader_keyword char(50) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_private_keys{}.id integer geotiff_photometric_interpretation char(10) geotiff_tifftag_hostcomputer char(255) geotiff_tifftag_datetime datetime geotiff_subdataset_description char(255) geotiff_tifftag_documentname char(255) geotiff_pyramid_num_levels integer multi_reader_full_id integer fme_sweep_angle float fme_fill_color char(50) fme_text_size float fme_dataset char(50) multi_reader_id integer geotiff_interleaving_type char(3) geotiff_tifftag_xresolution float geotiff_pyramid_level{}.num_rows integer fme_primary_axis float fme_feature_type char(50) fme_geometry char(50) multi_reader_type char(50) geotiff_tifftag_yresolution float geotiff_tifftag_imagedescription char(255) geotiff_subdataset_name char(255) geotiff_pyramid_level{}.num_columns integer geotiff_byte_order char(7)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float geotiff_byte_order char(7) fme_color char(50) geotiff_number_of_bits_per_cell decimal(1,0) geotiff_tifftag_datetime datetime fme_geometry char(50) geotiff_tifftag_yresolution float geotiff_tifftag_artist char(255) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_private_keys{}.id integer geotiff_tifftag_software char(255) fme_text_size float fme_rotation float geotiff_pyramid_num_levels integer fme_text_string char(50) geotiff_pyramid_level{}.num_columns integer multi_reader_keyword char(50) multi_reader_full_id integer geotiff_private_keys{}.value char(255) geotiff_subdataset_description char(255) geotiff_private_keys{}.type char(6) geotiff_tifftag_hostcomputer char(255) fme_secondary_axis float fme_feature_type char(50) geotiff_tifftag_imagedescription char(255) geotiff_pyramid_level{}.num_rows integer geotiff_area_or_point char(255) multi_reader_id integer geotiff_tifftag_minsamplevalue integer multi_reader_type char(50) fme_basename char(50) geotiff_compression_method char(9) fme_type char(50) geotiff_tifftag_xresolution float fme_fill_color char(50) geotiff_tifftag_copyright char(255) geotiff_type char(255) geotiff_tifftag_documentname char(255) fme_start_angle float fme_primary_axis float geotiff_subdataset_name char(255) geotiff_photometric_interpretation char(10) geotiff_interleaving_type char(3) fme_dataset char(50) geotiff_tifftag_maxsamplevalue integer"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -133,7 +133,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="geotiff_number_of_bits_per_cell decimal(1,0) geotiff_area_or_point char(255) fme_secondary_axis float geotiff_compression_method char(9) fme_rotation float geotiff_private_keys{}.type char(6) geotiff_tifftag_artist char(255) fme_type char(50) geotiff_type char(255) fme_start_angle float geotiff_tifftag_software char(255) fme_basename char(50) fme_text_string char(50) geotiff_private_keys{}.value char(255) fme_color char(50) geotiff_tifftag_minsamplevalue integer geotiff_tifftag_maxsamplevalue integer geotiff_tifftag_copyright char(255) multi_reader_keyword char(50) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_private_keys{}.id integer geotiff_photometric_interpretation char(10) geotiff_tifftag_hostcomputer char(255) geotiff_tifftag_datetime datetime geotiff_subdataset_description char(255) geotiff_tifftag_documentname char(255) geotiff_pyramid_num_levels integer multi_reader_full_id integer fme_sweep_angle float fme_fill_color char(50) fme_text_size float fme_dataset char(50) multi_reader_id integer geotiff_interleaving_type char(3) geotiff_tifftag_xresolution float geotiff_pyramid_level{}.num_rows integer fme_primary_axis float fme_feature_type char(50) fme_geometry char(50) multi_reader_type char(50) geotiff_tifftag_yresolution float geotiff_tifftag_imagedescription char(255) geotiff_subdataset_name char(255) geotiff_pyramid_level{}.num_columns integer geotiff_byte_order char(7)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float geotiff_byte_order char(7) fme_color char(50) geotiff_number_of_bits_per_cell decimal(1,0) geotiff_tifftag_datetime datetime fme_geometry char(50) geotiff_tifftag_yresolution float geotiff_tifftag_artist char(255) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_private_keys{}.id integer geotiff_tifftag_software char(255) fme_text_size float fme_rotation float geotiff_pyramid_num_levels integer fme_text_string char(50) geotiff_pyramid_level{}.num_columns integer multi_reader_keyword char(50) multi_reader_full_id integer geotiff_private_keys{}.value char(255) geotiff_subdataset_description char(255) geotiff_private_keys{}.type char(6) geotiff_tifftag_hostcomputer char(255) fme_secondary_axis float fme_feature_type char(50) geotiff_tifftag_imagedescription char(255) geotiff_pyramid_level{}.num_rows integer geotiff_area_or_point char(255) multi_reader_id integer geotiff_tifftag_minsamplevalue integer multi_reader_type char(50) fme_basename char(50) geotiff_compression_method char(9) fme_type char(50) geotiff_tifftag_xresolution float fme_fill_color char(50) geotiff_tifftag_copyright char(255) geotiff_type char(255) geotiff_tifftag_documentname char(255) fme_start_angle float fme_primary_axis float geotiff_subdataset_name char(255) geotiff_photometric_interpretation char(10) geotiff_interleaving_type char(3) fme_dataset char(50) geotiff_tifftag_maxsamplevalue integer"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -199,7 +199,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="geotiff_world_file_generation $(_GEOTIFF_WRITER_WORLD_FILE_GENERATION) geotiff_create_tiled_files $(_GEOTIFF_WRITER_CREATE_TILED_FILES) geotiff_tile_size_x $(_GEOTIFF_WRITER_TILE_SIZE_X) geotiff_tile_size_y $(_GEOTIFF_WRITER_TILE_SIZE_Y) geotiff_compression_method $(_GEOTIFF_WRITER_COMPRESSION_METHOD) geotiff_jpeg_compression_level $(_GEOTIFF_WRITER_JPEG_COMPRESSION_LEVEL) geotiff_tab_file_generation $(_GEOTIFF_WRITER_TAB_FILE_GENERATION) geotiff_number_of_bits_per_cell $(_GEOTIFF_WRITER_NUMBER_OF_BITS_PER_CELL) geotiff_enable_bigtiff $(_GEOTIFF_WRITER_ENABLE_BIGTIFF) geotiff_interleaving_type $(_GEOTIFF_WRITER_INTERLEAVING_TYPE) geotiff_photometric_interpretation $(_GEOTIFF_WRITER_PHOTOMETRIC_INTERPRETATION) geotiff_byte_order $(_GEOTIFF_WRITER_BYTE_ORDER) geotiff_calculate_minmax_tifftags $(_GEOTIFF_WRITER_CALCULATE_MINMAX_TIFFTAGS)"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="geotiff_number_of_bits_per_cell decimal(1,0) geotiff_area_or_point char(255) fme_secondary_axis float geotiff_compression_method char(9) fme_rotation float geotiff_private_keys{}.type char(6) geotiff_tifftag_artist char(255) fme_type char(50) geotiff_type char(255) geotiff_enable_bigtiff char(3) fme_start_angle float geotiff_tifftag_software char(255) fme_basename char(50) geotiff_create_tiled_files char(3) fme_text_string char(50) geotiff_private_keys{}.value char(255) fme_color char(50) geotiff_tifftag_minsamplevalue integer geotiff_calculate_minmax_tifftags char(3) geotiff_tifftag_maxsamplevalue integer geotiff_tile_size_x integer geotiff_tifftag_copyright char(255) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_private_keys{}.id integer geotiff_tab_file_generation char(3) geotiff_photometric_interpretation char(10) geotiff_tifftag_hostcomputer char(255) geotiff_tifftag_datetime datetime geotiff_tifftag_documentname char(255) geotiff_jpeg_compression_level decimal(5,0) fme_sweep_angle float geotiff_tile_size_y integer fme_fill_color char(50) fme_text_size float geotiff_world_file_generation char(3) fme_dataset char(50) geotiff_interleaving_type char(3) geotiff_tifftag_xresolution float fme_primary_axis float fme_feature_type char(50) fme_geometry fme_char(50) geotiff_tifftag_yresolution float geotiff_tifftag_imagedescription char(255) geotiff_byte_order char(7)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float geotiff_jpeg_compression_level decimal(5,0) geotiff_number_of_bits_per_cell decimal(1,0) geotiff_byte_order char(7) fme_color char(50) geotiff_tifftag_datetime datetime fme_geometry fme_char(50) geotiff_create_tiled_files char(3) geotiff_enable_bigtiff char(3) geotiff_tile_size_x integer geotiff_tifftag_yresolution float geotiff_tifftag_artist char(255) geotiff_tifftag_resolutionunit decimal(1,0) geotiff_tile_size_y integer geotiff_private_keys{}.id integer geotiff_tifftag_software char(255) fme_text_size float fme_rotation float fme_text_string char(50) geotiff_private_keys{}.value char(255) geotiff_private_keys{}.type char(6) geotiff_tifftag_hostcomputer char(255) fme_secondary_axis float fme_feature_type char(50) geotiff_tifftag_imagedescription char(255) geotiff_area_or_point char(255) geotiff_tab_file_generation char(3) geotiff_tifftag_minsamplevalue integer fme_basename char(50) geotiff_compression_method char(9) fme_type char(50) geotiff_tifftag_xresolution float fme_fill_color char(50) geotiff_tifftag_copyright char(255) geotiff_type char(255) geotiff_tifftag_documentname char(255) geotiff_world_file_generation char(3) fme_start_angle float fme_primary_axis float geotiff_photometric_interpretation char(10) geotiff_interleaving_type char(3) geotiff_calculate_minmax_tifftags char(3) fme_dataset char(50) geotiff_tifftag_maxsamplevalue integer"
 #!   DEFLINE_PARMS="&quot;GUI CHOICE geotiff_world_file_generation yes%no World File Generation&quot; no &quot;GUI CHOICE geotiff_create_tiled_files yes%no Create Tiled Files&quot; no &quot;GUI OPTIONAL INTEGER geotiff_tile_size_x Number of Columns per Tile (optional)&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER geotiff_tile_size_y Number of Rows per Tile (optional)&quot; &quot;&quot; &quot;GUI CHOICE geotiff_compression_method jpeg%lzw%pack-bits%ccitt-rle%ccitt-fax3%ccitt-fax4%none Compression Method&quot; none &quot;GUI INTEGER geotiff_jpeg_compression_level Jpeg Compression Level (0 - 100)&quot; 25 &quot;GUI CHOICE geotiff_tab_file_generation yes%no TAB File Generation&quot; no &quot;GUI OPTIONAL INTEGER geotiff_number_of_bits_per_cell Number of Bits Per Cell (1 - 32) (optional)&quot; &quot;&quot; &quot;GUI CHOICE geotiff_enable_bigtiff yes%no Enable BigTIFF&quot; no &quot;GUI CHOICE geotiff_interleaving_type BSQ%BIP Interleaving Type&quot; BSQ &quot;GUI CHOICE geotiff_photometric_interpretation Auto%MinIsBlack%MinIsWhite%YCbCr Photometric Interpretation&quot; Auto &quot;GUI CHOICE geotiff_byte_order machine%LSB%MSB Byte Order&quot; machine &quot;GUI CHOICE geotiff_calculate_minmax_tifftags yes%no Calculate Min/Max TIFF Tags&quot; no "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -262,7 +262,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY} shape_dimension auto"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis double fme_fill_color char(50) fme_basename char(50) SHAPE_GEOMETRY char(50) fme_color char(50) fme_type char(50) fme_geometry char(50) fme_feature_type char(50) fme_sweep_angle double fme_text_string char(50) fme_dataset char(50) shape_measures char(254) fme_rotation double fme_text_size double fme_primary_axis double fme_start_angle double"
+#!   EXPOSABLE_ATTRS="fme_type char(50) fme_fill_color char(50) fme_rotation double fme_geometry char(50) fme_color char(50) fme_primary_axis double fme_feature_type char(50) fme_text_size double fme_start_angle double shape_measures char(254) SHAPE_GEOMETRY char(50) fme_dataset char(50) fme_basename char(50) fme_secondary_axis double fme_sweep_angle double fme_text_string char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group shape_dimension Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE shape_dimension Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,auto%2D,2d%2D&lt;space&gt;+&lt;space&gt;Measures,2dm%3D&lt;space&gt;+&lt;space&gt;Measures,3dm Output Dimension:&quot; auto "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
@@ -1138,7 +1138,7 @@
 #!   COLLAPSED="false"
 #!   KEYWORD="GEOTIFF_3"
 #!   PARMS_EDITED="false"
-#!   ENABLED="false"
+#!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="fme_basename" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1183,46 +1183,46 @@
 #! <DATASET 
 #!   NAME="GEOTIFF_1"
 #!   OVERRIDE="-GEOTIFF_1_DATASET"
-#!   DATASET="GEOTIFF_1/MDS_MI_2986-2-NO.tif&quot;&quot;"
+#!   DATASET="GEOTIFF_1/"
 #! />
 #! <DATASET 
 #!   NAME="GEOTIFF_2"
 #!   OVERRIDE="-GEOTIFF_2_DATASET"
-#!   DATASET="GEOTIFF_2/MDT_MI_2986-2-NO.tif&quot;&quot;"
+#!   DATASET="GEOTIFF_2/"
 #! />
 #! </READER_DATASETS>
 #! <WRITER_DATASETS>
 #! <DATASET 
 #!   NAME="ESRISHAPE_1"
 #!   OVERRIDE="-ESRISHAPE_1_DATASET"
-#!   DATASET="ESRISHAPE_1/diff"
+#!   DATASET="ESRISHAPE_1/"
 #! />
 #! <DATASET 
 #!   NAME="GEOTIFF_3"
 #!   OVERRIDE="-GEOTIFF_3_DATASET"
-#!   DATASET="GEOTIFF_3/diff"
+#!   DATASET="GEOTIFF_3/"
 #! />
 #! </WRITER_DATASETS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_GEOTIFF GeoTIFF_Files(*.tif;*.tiff;*.itiff;*.ovr)|*.tif;*.tiff;*.itiff;*.ovr|All_Files(*)|* Todos os MDS:"
-#!   DEFAULT_VALUE="&quot;&quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-4-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-4-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2968-4-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2968-4-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-3-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-3-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2985-2-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2985-2-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-1-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-1-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-2-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-2-NO.tif&quot;&quot;"
+#!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_GEOTIFF_3 GeoTIFF_Files(*.tif;*.tiff;*.itiff;*.ovr)|*.tif;*.tiff;*.itiff;*.ovr|All_Files(*)|* Todos os MDT:"
-#!   DEFAULT_VALUE="&quot;&quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-4-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-4-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2968-4-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2968-4-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-SE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-3-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-3-SO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2985-2-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2985-2-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-1-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-1-NO.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-2-NE.tif&quot; &quot;\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-2-NO.tif&quot;&quot;"
+#!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DIRNAME DestDataset_GEOTIFF Pasta de destino dos geotiff:"
-#!   DEFAULT_VALUE="C:\Users\diniz.1CGEO\Downloads\diff"
+#!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DIRNAME DestDataset_ESRISHAPE Pasta de destino (shapefile):"
-#!   DEFAULT_VALUE="C:\Users\diniz.1CGEO\Downloads\diff"
+#!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -1297,7 +1297,7 @@
 #!   BOUNDING_RECT="-84.375843758437611 -28.125281252812528 746.8824688246882 1193.7619376193766"
 #!   STICKY="true"
 #!   COLOUR="0.34901960784313724,0.094117647058823528,0.43137254901960786"
-#!   CONTENTS="5 3 2 4 "
+#!   CONTENTS="2 5 4 3 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1452,7 +1452,7 @@
 #!   ORDER="500000000000013"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
+#!   LAST_PARM_EDIT="18586"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -1467,7 +1467,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_label" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; observacao SET_TO MDT&lt;space&gt;com&lt;space&gt;cota&lt;space&gt;superior&lt;space&gt;ao&lt;space&gt;MDS"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; observacao SET_TO Diferen&lt;u00e7&gt;a&lt;space&gt;entre&lt;space&gt;MDS&lt;space&gt;e&lt;space&gt;MDT&lt;space&gt;negativa&lt;space&gt;ou&lt;space&gt;superior&lt;space&gt;a&lt;space&gt;80&lt;space&gt;metros"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1518,7 +1518,7 @@
 #!   ORDER="500000000000220"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
+#!   LAST_PARM_EDIT="18586"
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -1540,7 +1540,7 @@
 #!     <XFORM_ATTR ATTR_NAME="_band{}.palette{}.valueMax" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.min&lt;closeparen&gt; &lt; -0.1"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.min&lt;closeparen&gt; &lt; -0.1&#10;TEST &lt;at&gt;Value&lt;openparen&gt;_band&lt;opencurly&gt;0&lt;closecurly&gt;.max&lt;closeparen&gt; &gt; 80"/>
 #!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
@@ -1552,9 +1552,9 @@
 #!   POSITION="2152.0175154157732 -1402.5146251462509"
 #!   BOUNDING_RECT="2152.0175154157732 -1402.5146251462509 -1 -1"
 #!   ORDER="500000000000055"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
+#!   LAST_PARM_EDIT="18586"
 #! >
 #!     <OUTPUT_FEAT NAME="RESULT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -1577,7 +1577,7 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="EXPRESSION_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="EXPRESSION_LIST" PARM_VALUE="INTERPRETATION_LIST &quot;PRESERVE&quot; EXPRESSION_LIST &quot;if&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;lt&gt;&lt;space&gt;-0.1&lt;comma&gt;1&lt;comma&gt;0&lt;closeparen&gt;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="EXPRESSION_LIST" PARM_VALUE="INTERPRETATION_LIST &quot;PRESERVE&quot; EXPRESSION_LIST &quot;if&lt;openparen&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;lt&gt;&lt;space&gt;-0.1&lt;space&gt;||&lt;space&gt;A&lt;openbracket&gt;0&lt;closebracket&gt;&lt;gt&gt;&lt;space&gt;80&lt;comma&gt;1&lt;comma&gt;0&lt;closeparen&gt;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="One Raster"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
@@ -1730,13 +1730,13 @@
 
 FME_PYTHON_VERSION 2or3
 GUI IGNORE SourceDataset_GEOTIFF_1,GEOTIFF_IN_APPLY_GCPS_GEOTIFF_1,GEOTIFF_IN_GCP_INTERPOLATION_METHOD_GEOTIFF_1,GEOTIFF_IN_USE_SEARCH_ENVELOPE_GEOTIFF_1,GEOTIFF_IN_SEARCH_ENVELOPE_MINX_GEOTIFF_1,GEOTIFF_IN_SEARCH_ENVELOPE_MINY_GEOTIFF_1,GEOTIFF_IN_SEARCH_ENVELOPE_MAXX_GEOTIFF_1,GEOTIFF_IN_SEARCH_ENVELOPE_MAXY_GEOTIFF_1,GEOTIFF_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_GEOTIFF_1,GEOTIFF_IN_CLIP_TO_ENVELOPE_GEOTIFF_1,GEOTIFF_IN_GEOTIFF_RDR_ADV_PARM_GROUP_GEOTIFF_1,GEOTIFF_IN_PYRAMID_LEVEL_GEOTIFF_1,GEOTIFF_IN_PREFER_FILE_CS_UNITS_GEOTIFF_1,GEOTIFF_IN_READ_OFFSETS_IN_CS_UNITS_GEOTIFF_1,GEOTIFF_IN_IGNORE_RASTER_TYPE_KEY_GEOTIFF_1,GEOTIFF_IN_NETWORK_AUTHENTICATION_GEOTIFF_1,SourceDataset_GEOTIFF_2,GEOTIFF_IN_APPLY_GCPS_GEOTIFF_2,GEOTIFF_IN_GCP_INTERPOLATION_METHOD_GEOTIFF_2,GEOTIFF_IN_USE_SEARCH_ENVELOPE_GEOTIFF_2,GEOTIFF_IN_SEARCH_ENVELOPE_MINX_GEOTIFF_2,GEOTIFF_IN_SEARCH_ENVELOPE_MINY_GEOTIFF_2,GEOTIFF_IN_SEARCH_ENVELOPE_MAXX_GEOTIFF_2,GEOTIFF_IN_SEARCH_ENVELOPE_MAXY_GEOTIFF_2,GEOTIFF_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_GEOTIFF_2,GEOTIFF_IN_CLIP_TO_ENVELOPE_GEOTIFF_2,GEOTIFF_IN_GEOTIFF_RDR_ADV_PARM_GROUP_GEOTIFF_2,GEOTIFF_IN_PYRAMID_LEVEL_GEOTIFF_2,GEOTIFF_IN_PREFER_FILE_CS_UNITS_GEOTIFF_2,GEOTIFF_IN_READ_OFFSETS_IN_CS_UNITS_GEOTIFF_2,GEOTIFF_IN_IGNORE_RASTER_TYPE_KEY_GEOTIFF_2,GEOTIFF_IN_NETWORK_AUTHENTICATION_GEOTIFF_2,DestDataset_GEOTIFF_3,GEOTIFF_OUT_GEOTIFF_WRT_ADV_PARM_GROUP_GEOTIFF_3,GEOTIFF_OUT_WRITE_OFFSETS_IN_CS_UNITS_GEOTIFF_3,GEOTIFF_OUT_WRITE_PROJECTED_COORDSYS_AS_EPSG_CODE_GEOTIFF_3,GEOTIFF_OUT_WRITE_GEOGRAPHIC_COORDSYS_AS_EPSG_CODE_GEOTIFF_3,GEOTIFF_OUT_WRITE_GEOGRAPHIC_KEYS_FOR_PROJECTED_COORDSYS_GEOTIFF_3,GEOTIFF_OUT_WRITE_ESRI_COMPATIBLE_COORDSYS_GEOTIFF_3,GEOTIFF_OUT_IGNORE_RASTER_TYPE_KEY_GEOTIFF_3,DestDataset_ESRISHAPE_1,ESRISHAPE_OUT_WRITER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_OUT_ENCODING_ESRISHAPE_1,ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_1,ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_1,ESRISHAPE_OUT_ADVANCED_ESRISHAPE_1,ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_1,ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_1,ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_1
-DEFAULT_MACRO SourceDataset_GEOTIFF ""\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-SE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2952-4-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-NO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-SE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-3-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-4-NO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2953-4-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2968-4-SE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2968-4-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-NO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-SE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-2-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-SE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-3-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-NO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-SE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2969-4-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-NO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-SE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-1-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-3-NO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2970-3-SO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2985-2-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2985-2-NO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-1-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-1-NO.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-2-NE.tif" "\\10.25.163.3\imagem01\RS\MDS\Lote1\MDS_MI_2986-2-NO.tif""
+DEFAULT_MACRO SourceDataset_GEOTIFF 
 GUI MULTIFILE SourceDataset_GEOTIFF GeoTIFF_Files(*.tif;*.tiff;*.itiff;*.ovr)|*.tif;*.tiff;*.itiff;*.ovr|All_Files(*)|* Todos os MDS:
-DEFAULT_MACRO SourceDataset_GEOTIFF_3 ""\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-SE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2952-4-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-NO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-SE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-3-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-4-NO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2953-4-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2968-4-SE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2968-4-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-NO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-SE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-2-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-SE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-3-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-NO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-SE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2969-4-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-NO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-SE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-1-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-3-NO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2970-3-SO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2985-2-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2985-2-NO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-1-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-1-NO.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-2-NE.tif" "\\10.25.163.3\imagem01\RS\MDT\Lote1\MDT_MI_2986-2-NO.tif""
+DEFAULT_MACRO SourceDataset_GEOTIFF_3 
 GUI MULTIFILE SourceDataset_GEOTIFF_3 GeoTIFF_Files(*.tif;*.tiff;*.itiff;*.ovr)|*.tif;*.tiff;*.itiff;*.ovr|All_Files(*)|* Todos os MDT:
-DEFAULT_MACRO DestDataset_GEOTIFF C:\Users\diniz.1CGEO\Downloads\diff
+DEFAULT_MACRO DestDataset_GEOTIFF 
 GUI DIRNAME DestDataset_GEOTIFF Pasta de destino dos geotiff:
-DEFAULT_MACRO DestDataset_ESRISHAPE C:\Users\diniz.1CGEO\Downloads\diff
+DEFAULT_MACRO DestDataset_ESRISHAPE 
 GUI DIRNAME DestDataset_ESRISHAPE Pasta de destino (shapefile):
 INCLUDE [ if {{$(SourceDataset_GEOTIFF)} == {}} { puts_real {Parameter 'SourceDataset_GEOTIFF' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_GEOTIFF_3)} == {}} { puts_real {Parameter 'SourceDataset_GEOTIFF_3' must be given a value.}; exit 1; }; ]
@@ -2093,7 +2093,6 @@ ESRISHAPE_1_DATASET "$(DestDataset_ESRISHAPE_1)"
 
 LOG_FILENAME "$(FME_MF_DIR)verifica_diferenca_MDS_MDT.log"
 LOG_APPEND NO
-LOG_TIMINGS YES
 LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -2107,11 +2106,11 @@ DEFAULT_MACRO DATASET_KEYWORD_GEOTIFF_3 GEOTIFF_3
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
 # -------------------------------------------------------------------------
 
-GEOTIFF_1_READER_META_ATTRIBUTES fme_basename fme_feature_type
+GEOTIFF_1_READER_META_ATTRIBUTES fme_feature_type fme_basename
 
 # -------------------------------------------------------------------------
 
-GEOTIFF_2_READER_META_ATTRIBUTES fme_basename fme_feature_type
+GEOTIFF_2_READER_META_ATTRIBUTES fme_feature_type fme_basename
 
 # -------------------------------------------------------------------------
 
@@ -2132,21 +2131,21 @@ GEOTIFF_1_MERGE_DEF GEOTIFF_1::GEOTIFF EXACT GEOTIFF
 GEOTIFF_2_MERGE_DEF GEOTIFF_2::GEOTIFF EXACT GEOTIFF
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "GEOTIFF (GEOTIFF_2) Splitter"    INPUT FEATURE_TYPE GEOTIFF      multi_reader_keyword $(DATASET_KEYWORD_GEOTIFF_2)    OUTPUT FEATURE_TYPE GEOTIFF_GEOTIFF_2
+FACTORY_DEF * TeeFactory    FACTORY_NAME "GEOTIFF (GEOTIFF_1) Splitter"    INPUT FEATURE_TYPE GEOTIFF      multi_reader_keyword $(DATASET_KEYWORD_GEOTIFF_1)    OUTPUT FEATURE_TYPE GEOTIFF_GEOTIFF_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "GEOTIFF (GEOTIFF_1) Splitter"    INPUT FEATURE_TYPE GEOTIFF      multi_reader_keyword $(DATASET_KEYWORD_GEOTIFF_1)    OUTPUT FEATURE_TYPE GEOTIFF_GEOTIFF_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "GEOTIFF (GEOTIFF_2) Splitter"    INPUT FEATURE_TYPE GEOTIFF      multi_reader_keyword $(DATASET_KEYWORD_GEOTIFF_2)    OUTPUT FEATURE_TYPE GEOTIFF_GEOTIFF_2
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_2_b526581d_659a_40d8_af53_fa5f11ed59e54_replacer { findText replaceText invalidValue} {     set attrs [split \"fme_basename\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE GEOTIFF_GEOTIFF_2    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_b526581d_659a_40d8_af53_fa5f11ed59e54_replacer {MDT_} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_2_de41e201_626e_45a4_874e_5947e32f08a60_replacer { findText replaceText invalidValue} {     set attrs [split \"fme_basename\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE GEOTIFF_GEOTIFF_2    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_de41e201_626e_45a4_874e_5947e32f08a60_replacer {MDT_} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_3_ac9959e6_fe20_4d47_bd0e_c4f91491d4944_replacer { findText replaceText invalidValue} {     set attrs [split \"fme_basename\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_3    INPUT  FEATURE_TYPE GEOTIFF_GEOTIFF_1    OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT         @Tcl2("StringReplacer_3_ac9959e6_fe20_4d47_bd0e_c4f91491d4944_replacer {MDS_} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_3_1c68ab76_da13_4390_ba8d_eb8e98257f7d0_replacer { findText replaceText invalidValue} {     set attrs [split \"fme_basename\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [regsub $(casemac) -all -- $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_3    INPUT  FEATURE_TYPE GEOTIFF_GEOTIFF_1    OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT         @Tcl2("StringReplacer_3_1c68ab76_da13_4390_ba8d_eb8e98257f7d0_replacer {MDS_} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator    INPUT A FEATURE_TYPE StringReplacer_3_OUTPUT    INPUT B FEATURE_TYPE StringReplacer_2_OUTPUT    INTERPRETATION_LIST "PRESERVE" EXPRESSION_LIST "A<openbracket>0<closebracket><space>-<space>B<openbracket>0<closebracket>"    FORCE_FLOAT_DIVISION yes    GROUP_BY { fme_basename }    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_RESULT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterExpressionEvaluator RESULT Splitter"   INPUT FEATURE_TYPE RasterExpressionEvaluator_RESULT   OUTPUT FEATURE_TYPE RasterExpressionEvaluator_RESULT_0_LcvONrBjVfY=   OUTPUT FEATURE_TYPE RasterExpressionEvaluator_RESULT_1_6QUjPFWBMIE=
@@ -2154,21 +2153,23 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "RasterExpressionEvaluator RESULT Splitt
 FACTORY_DEF * TeeFactory    FACTORY_NAME RasterBandMinMaxExtractor    INPUT  FEATURE_TYPE RasterExpressionEvaluator_RESULT_1_6QUjPFWBMIE=    OUTPUT FEATURE_TYPE ___TOREJECTOR___      @RenameAttributes(FME_STRICT,___fme_rejection_code___,fme_rejection_code)      @ProcessRasterTiles(REJECTABLE, MINMAX, TILE)
 FACTORY_DEF * TestFactory    FACTORY_NAME RasterBandMinMaxExtractor_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    OUTPUT FAILED FEATURE_TYPE RasterBandMinMaxExtractor_OUTPUT       @RenameAttributes(FME_STRICT,fme_rejection_code,___fme_rejection_code___)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE RasterBandMinMaxExtractor_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_band<opencurly>0<closecurly>.min<closeparen>,Tester) < -0.1 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE RasterBandMinMaxExtractor_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_band<opencurly>0<closecurly>.min<closeparen>,Tester) < -0.1 ENCODED TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_band<opencurly>0<closecurly>.max<closeparen>,Tester) > 80 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator_4    INPUT A FEATURE_TYPE Tester_PASSED    INTERPRETATION_LIST "PRESERVE" EXPRESSION_LIST "if<openparen>A<openbracket>0<closebracket><lt><space>-0.1<comma>1<comma>0<closeparen>"    FORCE_FLOAT_DIVISION yes    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_4_RESULT
+FACTORY_DEF {*} RasterEvaluationFactory    FACTORY_NAME RasterExpressionEvaluator_4    INPUT A FEATURE_TYPE Tester_PASSED    INTERPRETATION_LIST "PRESERVE" EXPRESSION_LIST "if<openparen>A<openbracket>0<closebracket><lt><space>-0.1<space>||<space>A<openbracket>0<closebracket><gt><space>80<comma>1<comma>0<closeparen>"    FORCE_FLOAT_DIVISION yes    REJECT_INVALID_FEATURES YES    OUTPUT RESULT FEATURE_TYPE RasterExpressionEvaluator_4_RESULT
 # -------------------------------------------------------------------------
 FACTORY_DEF * RasterSegmentationFactory    FACTORY_NAME RasterToPolygonCoercer_4    INPUT  FEATURE_TYPE RasterExpressionEvaluator_4_RESULT    POLYGON_MODE UNIQUE    EXTRACT_NODATA No    PRESERVE_ATTRIBUTES YES    POLYGON_LABEL_ATTRIBUTE "_label"    REJECT_INVALID_FEATURES YES    OUTPUT POLYGONS FEATURE_TYPE RasterToPolygonCoercer_4_POLYGONS
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_7    INPUT  FEATURE_TYPE RasterToPolygonCoercer_4_POLYGONS    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_label<closeparen>,Tester_7) = 1 ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_7_PASSED
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_6    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_7_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "MDT<space>com<space>cota<space>superior<space>ao<space>MDS" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_6    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Tester_7_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "Diferen<u00e7>a<space>entre<space>MDS<space>e<space>MDT<space>negativa<space>ou<space>superior<space>a<space>80<space>metros" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_6_OUTPUT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC RasterExpressionEvaluator_RESULT_0_LcvONrBjVfY= TO GEOTIFF __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,__wb_out_feat_type__,__nuke_me__ GEOMETRY    ROUTE FME_GENERIC AttributeCreator_6_OUTPUT TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>GEOTIFF000000<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>mdt_superior_ao_mds_<lt>at<gt>Value<lt>openparen<gt>fme_basename<lt>closeparen<gt><comma>GEOTIFF000000<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC RasterExpressionEvaluator_RESULT_0_LcvONrBjVfY= TO GEOTIFF __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>GEOTIFF<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>diff_MDS_MDT_<lt>at<gt>Value<lt>openparen<gt>fme_basename<lt>closeparen<gt><comma>GEOTIFF<closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeCreator_6_OUTPUT TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>fme_template_feature_type<comma>GEOTIFF000000<closeparen>,<at>EvaluateExpression<openparen>ATTR_CREATE_EXPR<comma>__wb_out_feat_type__<comma>mdt_superior_ao_mds_<lt>at<gt>Value<lt>openparen<gt>fme_basename<lt>closeparen<gt><comma>GEOTIFF000000<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
+# -------------------------------------------------------------------------
+GEOTIFF_3_DEF GEOTIFF   geotiff_world_file_generation no   geotiff_create_tiled_files   no   geotiff_tile_size_x          ""   geotiff_tile_size_y          ""   geotiff_compression_method   none   geotiff_jpeg_compression_level 25   geotiff_tab_file_generation  no   geotiff_number_of_bits_per_cell ""   geotiff_enable_bigtiff       no   geotiff_interleaving_type    BSQ   geotiff_photometric_interpretation Auto   geotiff_byte_order           machine   geotiff_calculate_minmax_tifftags no
 # -------------------------------------------------------------------------
 ESRISHAPE_1_DEF GEOTIFF000000   SHAPE_GEOMETRY               shape_polygon   shape_dimension              2d   observacao                   char(255)
