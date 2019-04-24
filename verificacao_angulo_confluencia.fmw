@@ -2,8 +2,8 @@
 #! <WORKSPACE
 #    Command-line to run this workspace:
 #        "C:\Program Files\FME\fme.exe" E:\DINIZ\3_Desenvolvimento\controle_qualidade\verificacao_angulo_confluencia.fmw
-#              --SourceDataset_ESRISHAPE ""
-#              --DestDataset_ESRISHAPE_5 ""
+#              --SourceDataset_ESRISHAPE "C:\Users\diniz.1CGEO\Desktop\Hidro-lote-01\1_VETORES\HID_Trecho_Drenagem_L.shp"
+#              --DestDataset_ESRISHAPE_5 "C:\Users\diniz.1CGEO\Desktop\Hidro-lote-01"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -18,8 +18,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="083931a3-e789-4156-afae-b21ab168e8d6"
-#!   FME_DOCUMENT_PRIORGUID="5b6c672e-9b08-443e-bfb2-2ff28df8811b,1ca606e0-be79-4c81-9968-afee871e149a,5fe87eed-c5bd-43b5-b276-82f82a2c2f5b,27dac401-9f9f-427c-b753-eeb7a3eae119,46e8f717-dd0e-4ab2-a26b-b5c16df061fb,479bddf4-2e5e-4962-bfac-baa0a044e42b,e333a5b8-d028-4697-9f90-e36587f4f6bb"
+#!   FME_DOCUMENT_GUID="35347bee-1365-4d62-b20c-7fe44bb41f69"
+#!   FME_DOCUMENT_PRIORGUID="5b6c672e-9b08-443e-bfb2-2ff28df8811b,1ca606e0-be79-4c81-9968-afee871e149a,5fe87eed-c5bd-43b5-b276-82f82a2c2f5b,27dac401-9f9f-427c-b753-eeb7a3eae119,46e8f717-dd0e-4ab2-a26b-b5c16df061fb,479bddf4-2e5e-4962-bfac-baa0a044e42b,e333a5b8-d028-4697-9f90-e36587f4f6bb,083931a3-e789-4156-afae-b21ab168e8d6,b1b52dc2-b493-43ac-a8eb-d69a10161450"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - WIN64)"
-#!   LAST_SAVE_DATE="2019-02-27T10:01:01"
+#!   LAST_SAVE_DATE="2019-04-05T15:26:01"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,7 +46,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-5460.99 429.692"
+#!   VIEW_POSITION="4878.96 62.5006"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="80"
@@ -65,7 +65,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_full_id long fme_text_string char(50) fme_type char(50) multi_reader_id long fme_text_size double multi_reader_keyword char(50) fme_fill_color char(50) fme_dataset char(50) fme_basename char(50) fme_feature_type char(50) multi_reader_type char(50) fme_rotation double fme_geometry char(50) shape_geometry_error{} char(254) fme_color char(50) fme_sweep_angle double fme_start_angle double fme_primary_axis double SHAPE_GEOMETRY char(50) shape_measures char(254) fme_secondary_axis double"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle double fme_basename char(50) fme_secondary_axis double multi_reader_keyword char(50) fme_start_angle double fme_primary_axis double fme_geometry char(50) SHAPE_GEOMETRY char(50) fme_fill_color char(50) multi_reader_id long fme_text_size double fme_color char(50) shape_measures char(254) multi_reader_full_id long fme_rotation double fme_feature_type char(50) shape_geometry_error{} char(254) multi_reader_type char(50) fme_text_string char(50) fme_dataset char(50) fme_type char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -123,7 +123,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY} shape_dimension auto"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="shape_measures char(254) fme_feature_type char(50) fme_rotation double fme_start_angle double fme_primary_axis double SHAPE_GEOMETRY char(50) fme_type char(50) fme_sweep_angle double fme_text_string char(50) fme_secondary_axis double fme_dataset char(50) fme_basename char(50) fme_fill_color char(50) fme_geometry char(50) fme_color char(50) fme_text_size double"
+#!   EXPOSABLE_ATTRS="SHAPE_GEOMETRY char(50) fme_dataset char(50) fme_basename char(50) fme_geometry char(50) shape_measures char(254) fme_sweep_angle double fme_secondary_axis double fme_text_string char(50) fme_color char(50) fme_rotation double fme_primary_axis double fme_fill_color char(50) fme_feature_type char(50) fme_type char(50) fme_text_size double fme_start_angle double"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group shape_dimension Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE shape_dimension Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,auto%2D,2d%2D&lt;space&gt;+&lt;space&gt;Measures,2dm%3D&lt;space&gt;+&lt;space&gt;Measures,3dm Output Dimension:&quot; auto "
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
@@ -799,26 +799,26 @@
 #! <DATASET 
 #!   NAME="ESRISHAPE_1"
 #!   OVERRIDE="-ESRISHAPE_1_DATASET"
-#!   DATASET="ESRISHAPE_1/"
+#!   DATASET="ESRISHAPE_1/HID_Trecho_Drenagem_L.shp"
 #! />
 #! </READER_DATASETS>
 #! <WRITER_DATASETS>
 #! <DATASET 
 #!   NAME="ESRISHAPE_2"
 #!   OVERRIDE="-ESRISHAPE_2_DATASET"
-#!   DATASET="ESRISHAPE_2/"
+#!   DATASET="ESRISHAPE_2/Hidro-lote-01"
 #! />
 #! </WRITER_DATASETS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Shapefile Trecho Drenagem:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="C:\Users\diniz.1CGEO\Desktop\Hidro-lote-01\1_VETORES\HID_Trecho_Drenagem_L.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI DIRNAME DestDataset_ESRISHAPE_5 Pasta de destino dos erros:"
-#!   DEFAULT_VALUE=""
+#!   DEFAULT_VALUE="C:\Users\diniz.1CGEO\Desktop\Hidro-lote-01"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -878,7 +878,7 @@
 #!   BOUNDING_RECT="-2256.1940482917416 -1157.7771833235895 1739.410833502272 513.14103979707875"
 #!   STICKY="true"
 #!   COLOUR="0.21176470588235294,0.95686274509803926,0.66666666666666663"
-#!   CONTENTS="39 5 6 12 43 7 38 "
+#!   CONTENTS="43 38 39 5 6 12 7 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -891,7 +891,7 @@
 #!   BOUNDING_RECT="-361.83707506069788 -338.84549494256282 1036.7621528740583 516"
 #!   STICKY="true"
 #!   COLOUR="0.80784313725490198,0.73725490196078436,0.36862745098039218"
-#!   CONTENTS="8 68 14 "
+#!   CONTENTS="8 14 68 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -3292,9 +3292,9 @@
 
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,DestDataset_ESRISHAPE_2,ESRISHAPE_OUT_WRITER_PARAMETERS_ESRISHAPE_2,ESRISHAPE_OUT_ENCODING_ESRISHAPE_2,ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_2,ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_2,ESRISHAPE_OUT_ADVANCED_ESRISHAPE_2,ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_2,ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_2,ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_2,ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_2
-DEFAULT_MACRO SourceDataset_ESRISHAPE 
+DEFAULT_MACRO SourceDataset_ESRISHAPE C:\Users\diniz.1CGEO\Desktop\Hidro-lote-01\1_VETORES\HID_Trecho_Drenagem_L.shp
 GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Shapefile Trecho Drenagem:
-DEFAULT_MACRO DestDataset_ESRISHAPE_5 
+DEFAULT_MACRO DestDataset_ESRISHAPE_5 C:\Users\diniz.1CGEO\Desktop\Hidro-lote-01
 GUI DIRNAME DestDataset_ESRISHAPE_5 Pasta de destino dos erros:
 INCLUDE [ if {{$(SourceDataset_ESRISHAPE)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_ESRISHAPE_5)} == {}} { puts_real {Parameter 'DestDataset_ESRISHAPE_5' must be given a value.}; exit 1; }; ]
@@ -3618,8 +3618,8 @@ DEFAULT_MACRO TopologyBuilder_OVERLAPPING_MODE
 INCLUDE [ if {{No} == {Yes}} { puts "MACRO TopologyBuilder_OVERLAPPING_MODE OVERLAPPING_DATA_PREFIX_ATTR _overlapping_input_data" } ]
 FACTORY_DEF {*} TopologyFactory    FACTORY_NAME TopologyBuilder    INPUT  FEATURE_TYPE Junction_Output_0_sH9l3UTsGrw=    ARC_NUMBER_ATTR _edge_id    FROM_NODE_ATTR  _from_node    TO_NODE_ATTR    _to_node    RIGHT_POLY_ATTR _right_face    LEFT_POLY_ATTR  _left_face    RIGHT_EDGE_ATTR _right_edge    LEFT_EDGE_ATTR  _left_edge    POLYGON_NUMBER_ATTR _face_id    PERIMETER_ATTR  _perimeter    ARCS_ATTR       _edges    POLYGONS_ATTR   _faces    AREA_ATTR       _area    NODES_ATTR      _nodes    NODE_NUMBER_ATTR _node_number    ANGLE_PREFIX_ATTR _node_angle    PROPAGATE_ATTRS No    ALLOW_CYCLES No    ASSUME_CLEAN_DATA No    $(TopologyBuilder_OVERLAPPING_MODE)    START_EDGES_ONLY No    MAX_COORDS      0    MODE COMPLETE    UNIVERSE_GEOMETRY yes    DEAGGREGATE_INPUT Yes    CLEANING_TOLERANCE NONE    OUTPUT LINE FEATURE_TYPE TopologyBuilder_LINE
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_5_3c636709_260d_4eb7_b21c_375d8c2f4b502_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_5    INPUT  FEATURE_TYPE TopologyBuilder_LINE    OUTPUT { FEATURE_TYPE AttributeKeeper_5_OUTPUT        @KeepAttributes(fme_encoded,_id_buffer,fme_pcre_match,"^fme_$(AttributeKeeper_5_3c636709_260d_4eb7_b21c_375d8c2f4b502_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_5_1e91d4ec_2a23_4c0b_85b2_8bdb735968a51_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_5    INPUT  FEATURE_TYPE TopologyBuilder_LINE    OUTPUT { FEATURE_TYPE AttributeKeeper_5_OUTPUT        @KeepAttributes(fme_encoded,_id_buffer,fme_pcre_match,"^fme_$(AttributeKeeper_5_1e91d4ec_2a23_4c0b_85b2_8bdb735968a51_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 INCLUDE [    if { ({No} == {Yes}) } {        puts {MACRO SELFINTERSECTIONFACTORY *};        puts {MACRO INTERSECTIONINPUT INPUT FEATURE_TYPE ___TOINTER___};    } else {        puts {MACRO SELFINTERSECTIONFACTORY IGNORED};        puts {MACRO INTERSECTIONINPUT INPUT  FEATURE_TYPE Intersector_2_INTERSECTED_0_7Ho75Aw3fq8=    INPUT  FEATURE_TYPE AttributeKeeper_5_OUTPUT };    }; ]
 FACTORY_DEF $(SELFINTERSECTIONFACTORY) IntersectionFactory    FACTORY_NAME Intersector_3_Self    INPUT  FEATURE_TYPE Intersector_2_INTERSECTED_0_7Ho75Aw3fq8=    INPUT  FEATURE_TYPE AttributeKeeper_5_OUTPUT    IGNORE_NODE_HEIGHTS YES    SELF_INTERSECTION_ONLY    MODE COMPLETE    DEAGGREGATE_INPUT Yes    REJECT_INVALID_GEOM Yes    OUTPUT SEGMENT FEATURE_TYPE ___TOINTER___
@@ -3627,8 +3627,8 @@ FACTORY_DEF {*} IntersectionFactory    FACTORY_NAME Intersector_3_ALL    $(INTER
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_5    INPUT  FEATURE_TYPE Intersector_3_INTERSECTED    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_count<closeparen>,Tester_5) != "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_5_PASSED
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_6_dcf67002_67e0_4ab8_958d_084d821f9fa02_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_6    INPUT  FEATURE_TYPE Tester_5_PASSED    OUTPUT { FEATURE_TYPE AttributeKeeper_6_OUTPUT        @KeepAttributes(fme_encoded,_id_buffer,_count,_line_group,_horton_order,fme_pcre_match,"^fme_$(AttributeKeeper_6_dcf67002_67e0_4ab8_958d_084d821f9fa02_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_6_ec1bcf0b_25aa_4750_8c55_22eea5c8ee2e1_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_6    INPUT  FEATURE_TYPE Tester_5_PASSED    OUTPUT { FEATURE_TYPE AttributeKeeper_6_OUTPUT        @KeepAttributes(fme_encoded,_id_buffer,_count,_line_group,_horton_order,fme_pcre_match,"^fme_$(AttributeKeeper_6_ec1bcf0b_25aa_4750_8c55_22eea5c8ee2e1_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} SpatialFilterFactory    FACTORY_NAME SpatialFilter_4    INPUT BASE FEATURE_TYPE Bufferer_4_BUFFERED_0_Z+6IDA04f6M=    INPUT CANDIDATE FEATURE_TYPE AttributeKeeper_6_OUTPUT    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR YES    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "CANDIDATE_IF_CONFLICT"    BASE_ATTR_PREFIX "<Unused>"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_4_PASSED
 # -------------------------------------------------------------------------
@@ -3653,16 +3653,16 @@ FACTORY_DEF {*} SpatialFilterFactory    FACTORY_NAME SpatialFilter_5    INPUT BA
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME GeometryRemover    INPUT  FEATURE_TYPE SpatialFilter_5_FAILED    OUTPUT FEATURE_TYPE GeometryRemover_OUTPUT         @RemoveGeometry()
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_8_bc188e95_406e_4a7e_ad79_73a31beef01e2_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_8    INPUT  FEATURE_TYPE GeometryRemover_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_8_OUTPUT        @KeepAttributes(fme_encoded,_id_buffer,_y1,_x1,fme_pcre_match,"^fme_$(AttributeKeeper_8_bc188e95_406e_4a7e_ad79_73a31beef01e2_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_8_0d3b2b45_8171_4046_9c0a_3eded0a4f2bc1_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_8    INPUT  FEATURE_TYPE GeometryRemover_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_8_OUTPUT        @KeepAttributes(fme_encoded,_id_buffer,_y1,_x1,fme_pcre_match,"^fme_$(AttributeKeeper_8_0d3b2b45_8171_4046_9c0a_3eded0a4f2bc1_LIST_EXP)")         }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeKeeper_8 OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeKeeper_8_OUTPUT   OUTPUT FEATURE_TYPE AttributeKeeper_8_OUTPUT_0_Xp0NO7fnTDA=   OUTPUT FEATURE_TYPE AttributeKeeper_8_OUTPUT_1_YD1IYYH8mdo=
 # -------------------------------------------------------------------------
 FACTORY_DEF * VertexCreatorFactory    FACTORY_NAME VertexCreator_5    INPUT  FEATURE_TYPE SpatialFilter_5_PASSED    MODE REPLACE    INDEX "<Unused>"    CONTINUE_ON_ERROR YES    XVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_xn<closeparen>,VertexCreator_5)"    YVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_yn<closeparen>,VertexCreator_5)"    OUTPUT OUTPUT FEATURE_TYPE VertexCreator_5_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * VertexCreatorFactory    FACTORY_NAME VertexCreator_6    INPUT  FEATURE_TYPE VertexCreator_5_OUTPUT    MODE INSERT    INDEX "0"    CONTINUE_ON_ERROR YES    XVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_xn-1<closeparen>,VertexCreator_6)"    YVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>_yn-1<closeparen>,VertexCreator_6)"    OUTPUT OUTPUT FEATURE_TYPE VertexCreator_6_OUTPUT
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_7_01c059d8_ce60_4851_bd71_dfd079f362d32_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_7    INPUT  FEATURE_TYPE VertexCreator_6_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_7_OUTPUT        @KeepAttributes(fme_encoded,_id_buffer,_count,fme_pcre_match,"^fme_$(AttributeKeeper_7_01c059d8_ce60_4851_bd71_dfd079f362d32_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_7_1dc83aff_aac4_45a2_a415_fada08b5dcdf1_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper_7    INPUT  FEATURE_TYPE VertexCreator_6_OUTPUT    OUTPUT { FEATURE_TYPE AttributeKeeper_7_OUTPUT        @KeepAttributes(fme_encoded,_id_buffer,_count,fme_pcre_match,"^fme_$(AttributeKeeper_7_1dc83aff_aac4_45a2_a415_fada08b5dcdf1_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 # If we're doing LAST N features, then the multiplier comes in as 0.
 # If we're doing First N, multiplier is -1.
@@ -3709,8 +3709,8 @@ FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_Condition_2 INPUT FEATURE_TYPE
 FACTORY_DEF * TeeFactory FACTORY_NAME TestFilter_<lt>UNFILTERED<gt> INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_2 OUTPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
 FACTORY_DEF * TeeFactory   FACTORY_NAME "TestFilter <lt>UNFILTERED<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE TestFilter_<lt>UNFILTERED<gt>
 # -------------------------------------------------------------------------
-INCLUDE [    set macroLine "MACRO AttributeKeeper_b01a795b_0b00_474c_aa67_809bcf52e3152_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
-FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE TestFilter_90    INPUT  FEATURE_TYPE TestFilter_270    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_b01a795b_0b00_474c_aa67_809bcf52e3152_LIST_EXP)")         }
+INCLUDE [    set macroLine "MACRO AttributeKeeper_9477371d_9bbd_4a5c_aacb_79c26bba56911_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME AttributeKeeper    INPUT  FEATURE_TYPE TestFilter_90    INPUT  FEATURE_TYPE TestFilter_270    OUTPUT { FEATURE_TYPE AttributeKeeper_OUTPUT        @KeepAttributes(fme_encoded,,fme_pcre_match,"^fme_$(AttributeKeeper_9477371d_9bbd_4a5c_aacb_79c26bba56911_LIST_EXP)")         }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeKeeper_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "observacao" "SET_TO" "Angulo<space>incorreto<space>de<space>confluencia.<space>Corrija<space>o<space>angulo<space>ou<space>o<space>sentido<space>da<space>drenagem." }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
 # -------------------------------------------------------------------------
